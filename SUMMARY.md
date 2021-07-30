@@ -1,106 +1,106 @@
 # Table of contents
 
-* [Getting Started](README.md)
-* [Back to pepemanager.com](https://pepemanager.com)
+* [Aan de slag](README.md)
+* [Terug naar pepemanager.com](https://pepemanager.com)
 
-## Information
+## Informatie
 
-* [Bot Permissions](information/bot-permissions.md)
-* [Patreon Perks](information/patreon-perks.md)
+* [Bot Vergunningen](information/bot-permissions.md)
+* [Patreon Voordelen](information/patreon-perks.md)
 
-## Guides
+## Handleidingen
 
-* [Automatic Role Mention Cooldown](guides/automatic-role-mention-cooldown.md)
-* [Automatically Adding Roles \(With Timeout\)](guides/automatically-added-roles-with-timeout.md)
-* [Automatically Controlled Emoji-List](guides/automatically-controlled-emoji-list.md)
-* [Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
-* [Automatically Publishing Announcements](guides/automatically-published-announcements.md)
-* [Blacklisting Members from using Commands](guides/blacklisting-members-from-using-commands.md)
-* [Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
-* [Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
+* [Automatische Rol Vermelding Afkoelingsperiode](guides/automatic-role-mention-cooldown.md)
+* [Automatisch toevoegen van rollen \(met time-out\)](guides/automatically-added-roles-with-timeout.md)
+* [Automatisch gecontroleerde Emoji-lijst](guides/automatically-controlled-emoji-list.md)
+* [Automatisch gecontroleerde mijlpalen voor leden](guides/automatically-controlled-member-milestones.md)
+* [Automatisch aankondigingen publiceren](guides/automatically-published-announcements.md)
+* [Leden uitsluiten van het gebruik van opdrachten](guides/blacklisting-members-from-using-commands.md)
+* [Server XP instellen/Leveling](guides/setting-up-server-xp-leveling.md)
+* [XP-multiplicators instellen](guides/setting-up-xp-multipliers.md)
 
-## Configuration Commands <a id="config-commands"></a>
+## Configuratieopdrachten <a id="config-commands"></a>
 
 * [Config](config-commands/config/README.md)
-  * [Check](config-commands/config/check.md)
-  * [Delete](config-commands/config/delete.md)
-  * [Delete All](config-commands/config/delete-all.md)
-  * [Reset](config-commands/config/reset.md)
-  * [Set](config-commands/config/set.md)
-  * [Toggle](config-commands/config/toggle.md)
-* [ResetXP](config-commands/resetxp.md)
-* [Prefix](config-commands/prefix.md)
+  * [Controleer](config-commands/config/check.md)
+  * [Verwijderen](config-commands/config/delete.md)
+  * [Alles verwijderen](config-commands/config/delete-all.md)
+  * [Terugstellen](config-commands/config/reset.md)
+  * [Stel in](config-commands/config/set.md)
+  * [Schakel](config-commands/config/toggle.md)
+* [Reset XP](config-commands/resetxp.md)
+* [Voorvoegsel](config-commands/prefix.md)
 
-## Emoji Commands
+## Emoji opdrachten
 
-* [Create Emoji](emoji-commands/createemoji.md)
-* [Delete Emoji](emoji-commands/deleteemoji.md)
-* [Download Emoji](emoji-commands/downloademoji.md)
-* [Random Emoji](emoji-commands/randomemoji.md)
-* [Rename Emoji](emoji-commands/rename-emoji.md)
-* [Search Emoji](emoji-commands/searchemoji.md)
+* [Emoji creëren](emoji-commands/createemoji.md)
+* [Emoji verwijderen](emoji-commands/deleteemoji.md)
+* [Emoji downloaden](emoji-commands/downloademoji.md)
+* [Willekeurige Emoji](emoji-commands/randomemoji.md)
+* [Emoji hernoemen](emoji-commands/rename-emoji.md)
+* [Emoji zoeken](emoji-commands/searchemoji.md)
 
-## Leveling Commands
+## Leveling opdrachten
 
-* [Add XP](leveling-commands/add-xp.md)
-* [Background](leveling-commands/background/README.md)
-  * [View](leveling-commands/background/view.md)
-  * [Set](leveling-commands/background/set.md)
-  * [Delete](leveling-commands/background/delete.md)
-* [Leaderboard](leveling-commands/leaderboard.md)
+* [XP toevoegen](leveling-commands/add-xp.md)
+* [Achtergrond](leveling-commands/background/README.md)
+  * [Bekijk](leveling-commands/background/view.md)
+  * [Stel in](leveling-commands/background/set.md)
+  * [Verwijderen](leveling-commands/background/delete.md)
+* [Leiderbord](leveling-commands/leaderboard.md)
 * [Level](leveling-commands/level.md)
-* [MEE6 Import](leveling-commands/mee6-import.md)
-* [Remove XP](leveling-commands/remove-xp.md)
+* [MEE6 Importeren](leveling-commands/mee6-import.md)
+* [Verwijder XP](leveling-commands/remove-xp.md)
 
-## Image Commands
+## Beeld opdrachten
 
-* [Banned](image-commands/banned.md)
-* [Blanket](image-commands/blanket.md)
+* [Verbannen](image-commands/banned.md)
+* [Deken](image-commands/blanket.md)
 * [Bonk](image-commands/bonk.md)
-* [Christmas](image-commands/christmas.md)
-* [Cop](image-commands/cop.md)
+* [Kerstmis](image-commands/christmas.md)
+* [Politie](image-commands/cop.md)
 * [Discord Mod](image-commands/discordmod.md)
-* [Enter](image-commands/enter.md)
-* [Exit](image-commands/exit.md)
-* [Hazmat](image-commands/hazmat.md)
-* [Hideyhole](image-commands/hideyhole.md)
+* [Ga binnen](image-commands/enter.md)
+* [Ga weg](image-commands/exit.md)
+* [Hazmatpak](image-commands/hazmat.md)
+* [Verstopplaats](image-commands/hideyhole.md)
 * [Jedi](image-commands/jedi.md)
-* [Not Stonks](image-commands/notstonks.md)
+* [Niet Stonks](image-commands/notstonks.md)
 * [Overlay](image-commands/overlay.md)
-* [Pet](image-commands/pet.md)
-* [Sign](image-commands/sign.md)
+* [Aaien](image-commands/pet.md)
+* [Teken](image-commands/sign.md)
 * [Sith](image-commands/sith.md)
 * [Stonks](image-commands/stonks.md)
 * [Toilet Jetpack](image-commands/toiletjetpack.md)
-* [Unicorn](image-commands/unicorn.md)
-* [Wallpeek](image-commands/wallpeek.md)
+* [Eenhoorn](image-commands/unicorn.md)
+* [Muurspion](image-commands/wallpeek.md)
 
-## Utility Commands
+## Handige opdrachten
 
-* [Activatepremium](utility-commands/activatepremium.md)
+* [Activerepremium](utility-commands/activatepremium.md)
 * [Avatar](utility-commands/avatar.md)
-* [Convert](utility-commands/convert.md)
-* [Graph](utility-commands/graph.md)
-* [Growth Change](utility-commands/growth-change.md)
-* [Invite](utility-commands/invite.md)
-* [Members](utility-commands/members.md)
+* [Converteren](utility-commands/convert.md)
+* [Grafiek](utility-commands/graph.md)
+* [Groei Verandering](utility-commands/growth-change.md)
+* [Uitnodigen](utility-commands/invite.md)
+* [Leden](utility-commands/members.md)
 * [Patreon](utility-commands/patreon.md)
-* [Patrons](utility-commands/patrons.md)
+* [Patroons](utility-commands/patrons.md)
 * [Ping](utility-commands/ping.md)
-* [Predict](utility-commands/predict.md)
-* [Purge](utility-commands/purge.md)
-* [Shards](utility-commands/shards.md)
+* [Voorspelling](utility-commands/predict.md)
+* [Zuiveren](utility-commands/purge.md)
+* [Scherven](utility-commands/shards.md)
 * [Stats](utility-commands/stats.md)
-* [Update Emoji List](utility-commands/update-emoji-list.md)
-* [User Info](utility-commands/user-info.md)
-* [Vote](utility-commands/vote.md)
+* [Emoji-lijst bijwerken](utility-commands/update-emoji-list.md)
+* [Gebruikersinfo](utility-commands/user-info.md)
+* [Stem](utility-commands/vote.md)
 
 ## Links
 
 ---
 
-* [Invite](https://pepemanager.com/invite)
+* [Uitnodigen](https://pepemanager.com/invite)
 * [Levels](https://pepemanager.com/levels)
-* [Support Server](https://discord.gg/pepe)
+* [Ondersteuning Server](https://discord.gg/pepe)
 * [Patreon](https://pepemanager.com/patreon)
 
