@@ -1,53 +1,53 @@
 ---
 description: >-
-  Set up a list of all of your server emojis and forget about it as it updates
-  itself
+  Stel een lijst op van al je server emoji's en vergeet het, want het update
+  zichzelf
 ---
 
-# Automatically Controlled Emoji-List
+# Automatisch gecontroleerde Emoji-lijst
 
-### Why Would You Need This?
+### Waarom zou je dit nodig hebben?
 
-An essential feature of Discord Emoji Servers is the conveniently created Emoji-Lists. Conventionally they are one channel dedicated to listing all of the emojis that are in one server or in some cases a multitude of servers, so users can easily copy and paste their favourite ones, look for enticing emojis to use, and more.   
-Pepe Manager offers exactly this, plus it gives you the freedom to set it up and forget about it as it does all of the work in the background.
+Een essentieel kenmerk van Discord Emoji Servers is de handig gemaakte Emoji-Lijsten. Conventioneel zijn ze een kanaal gewijd aan de opsomming van alle emoji's die in een server of in sommige gevallen een veelheid van servers zijn, zodat gebruikers gemakkelijk hun favoriete kunnen kopiëren en plakken, op zoek gaan naar verleidelijke emoji's om te gebruiken, en nog veel meer.   
+Pepe Manager biedt precies dit, plus het geeft je de vrijheid om het in te stellen en het te vergeten omdat het al het werk in de achtergrond doet.
 
-### Video Tutorial
+### Video-handleiding
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:  
+Als u geen zin hebt om lang te lezen, hebben wij een video gemaakt die u gemakkelijk zou moeten kunnen volgen:  
 
 
 {% embed url="https://youtube.com/watch?v=CYMIeDcgeek" %}
 
-## Guide
+## Handleiding
 
-### Setting the Channel
+### Instellen van het kanaal
 
-The first thing you want to do is create a channel for your emoji list. This will be the final channel, so set it up in the way you want everyone to see it.
+Het eerste wat u wilt doen is een kanaal maken voor uw emojilijst. Dit zal het laatste kanaal zijn, dus stel het in op de manier waarop je wilt dat iedereen het ziet.
 
-Next, you want to enter the following command:
+Vervolgens moet je het volgende commando invoeren:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set emojiListChannel <Channel/ChannelID/ChannelMention>
 ```
 
 {% hint style="info" %}
-You can set the channel by writing the name of the channel, using the channel ID or by simply mentioning the channel.  
-If you write an incomplete channel name the bot will look for the next closest one.
+Je kan het kanaal instellen door de naam van het kanaal te schrijven, het kanaal ID te gebruiken of door gewoon het kanaal te vermelden.  
+Als je een onvolledige kanaalnaam schrijft zal de bot naar het dichtsbijzijnde kanaal zoeken.
 {% endhint %}
 
-### Enabling the List
+### De lijst inschakelen
 
-Next, you will want to enable the emoji list. By default, even if you have set the emojiListChannel, it is not enabled. To enable it, enter the following command:
+Vervolgens moet u de emojilijst inschakelen. Standaard is de emojiListChannel niet ingeschakeld, zelfs niet als u deze hebt ingesteld. Voer het volgende commando in om hem in te schakelen:
 
 ```text
 p!config toggle emojiList
 ```
 
-### Update the List
+### De lijst bijwerken
 
-Finally, to get your new emoji list going, you need to manually update the emoji list. This is the only time you need to update it manually, however, you can always update the list manually later down the line:
+Tenslotte moet u de emojilijst handmatig bijwerken om uw nieuwe emojilijst te kunnen gebruiken. Dit is de enige keer dat u het handmatig moet doen, maar u kunt de lijst later altijd handmatig bijwerken:
 
 ```text
 p!updateemojilist
@@ -55,16 +55,16 @@ p!updateemojilist
 
 ### Final Words
 
-And that's it! You've successfully created an Automatically Controlled Emoji-List with Pepe Manager!
+En dat is het! U heeft met succes een Automatisch Gecontroleerde Emoji-List met Pepe Manager gemaakt!
 
-The Emoji-List will automatically update on these events:
+De Emoji-List zal automatisch worden bijgewerkt bij deze gebeurtenissen:
 
-* An Emoji is created
-* An Emoji is deleted
-* An Emoji is renamed
-* An Emoji is replaced \(Using Pepe Manager Commands\)
+* Een Emoji wordt aangemaakt
+* Een Emoji wordt verwijderd
+* Een Emoji wordt hernoemd
+* Een Emoji wordt vervangen (met behulp van Pepe Manager commando's)
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+Als u meer hulp nodig heeft met Pepe Manager, bekijk dan de rest van deze documentatie of ga naar onze support server om met een echt mens te praten!
 
 
 

@@ -1,179 +1,179 @@
 ---
-description: 'Reward your users activity with levels, role rewards and more!'
+description: 'Beloon de activiteit van uw gebruikers met niveaus, rolbeloningen en meer!
 ---
 
-# Setting Up Server XP/Leveling
+# Set Up Server XP/Leveling
 
-### Why Would You Need This?
+### Waarom zou je dit nodig hebben?
 
-Server Leveling is a super easy and effective way to ensure activity and growth in your Discord server. By setting out goals of activity with rewards, users will be enticed to keep the chat going to reach this goal you've put out for them. This goal can be anything from something as simple and inexpensive as a role reward that grants the user a special permission like the ability to send and embed images, to rewarding the topmost active users on your Discord with Nitro!  
-Pepe Manager offers a free and easy-to-use XP and Leveling system so you can keep user retention high, and costs low!
+Server Leveling is een super gemakkelijke en effectieve manier om activiteit en groei in je Discord server te verzekeren. Door het uitzetten van doelen van activiteit met beloningen, zullen gebruikers worden verleid om de chat gaande te houden om dit doel te bereiken dat je voor hen hebt uitgezet. Dit doel kan van alles zijn, van iets simpels en goedkoop als een rol beloning die de gebruiker een speciale toestemming geeft, zoals de mogelijkheid om afbeeldingen te versturen en te embedden, tot het belonen van de meest actieve gebruikers op je Discord met Nitro!  
+Pepe Manager biedt een gratis en makkelijk te gebruiken XP en Leveling systeem zodat je de gebruikers retentie hoog kunt houden, en de kosten laag!
 
-### Video Tutorial
+### Video Handleiding
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
+Als je een afkeer hebt van lang lezen, hebben we een video tutorial gemaakt die makkelijk te volgen is:
 
 {% embed url="https://youtu.be/H-x3\_94-T8E" %}
 
-## Guide
+## Handleiding
 
-### Toggling Levels
+### Leveling inschakelen
 
-By default, Pepe Manager will not have leveling enabled. Any user activity that may have occurred before you enabled leveling has not been counted. You need to enable it to get started by typing the following command:
+Pepe Manager heeft standaard geen leveling ingeschakeld. Alle gebruikersactiviteiten die plaatsvonden voordat u leveling inschakelde, worden niet meegeteld. U moet het inschakelen om te beginnen door het volgende commando te typen:
 
 ```text
 p!config toggle levels
 ```
 
-### Adding Allowed Channels
+### Toegestane kanalen toevoegen
 
-You can now add specific channels that users can gain XP in. The channels that you set will be the only channels in the server where users can gain XP. You can add multiple channels with the same command \(By including a space in between channels\) or you can also add channels one after another. To add channels you can type the following command:
+Je kunt nu specifieke kanalen toevoegen waarin gebruikers XP kunnen verdienen. De kanalen die je instelt zullen de enige kanalen in de server zijn waar gebruikers XP kunnen verdienen. Je kunt meerdere kanalen toevoegen met hetzelfde commando \(door een spatie tussen de kanalen te plaatsen\) of je kunt ook een kanaal na elkaar toevoegen. Om kanalen toe te voegen kun je het volgende commando typen:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set xpChannels <Channel/ChannelID/ChannelMention>
 ```
 
 {% hint style="info" %}
-You can set the channel by writing the name of the channel, using the channel ID or by simply mentioning the channel.  
-If you write an incomplete channel name the bot will look for the next closest one.
+Je kan het kanaal instellen door de naam van het kanaal te schrijven, het kanaal ID te gebruiken of door gewoon het kanaal te vermelden.  
+Als je een onvolledige kanaalnaam schrijft zal de bot naar het dichtsbijzijnde kanaal zoeken.
 {% endhint %}
 
 {% hint style="success" %}
-#### And That's It!
+#### En dat is het!
 
-If you only want the very basic leveling setup, you are done now! If you want to go more in-depth and learn about many more features that you can use, carry on!  
+Als je alleen de basis leveling setup wilt, ben je nu klaar! Als je meer de diepte in wilt gaan en over veel meer mogelijkheden wilt leren die je kunt gebruiken, ga dan verder!  
   
-_**ALL STEPS BEYOND THIS POINT ARE OPTIONAL**_
+_**ALLE STAPPEN NA DIT PUNT ZIJN OPTIONEEL**_
 {% endhint %}
 
-### Adding No XP Roles
+### Geen XP Rollen toevoegen
 
-You can now set specific roles to not gain XP, regardless of whether or not the user is in the appropriate leveling channel or not. It is also not important if the user has another role on top or below the role you set to not gain XP.   
-This feature is quite useful if you do not want your staff to gain XP, or to make sure that Muted users do not gain XP, etc. To add a role you can type the following command:
+Je kan nu instellen dat een bepaalde rol geen XP krijgt, ongeacht of de gebruiker in het juiste levelkanaal zit of niet. Het is ook niet belangrijk of de gebruiker een andere rol heeft boven of onder de rol die je instelt om geen XP te verdienen.   
+Deze functie is erg handig als je niet wilt dat je personeel XP krijgt, of om ervoor te zorgen dat gedempte gebruikers geen XP krijgen, etc. Om een rol toe te voegen kun je het volgende commando typen:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set noXpRoles <Role/RoleID/RoleMention>
 ```
 
 {% hint style="info" %}
-You can set the role by writing the name of the role, using the role ID or by simply mentioning the role.  
-If you write an incomplete role name the bot will look for the next closest one, this is useful if you have system emojis as part of your role name.
+Je kan de rol instellen door de naam van de rol te schrijven, de rol ID te gebruiken of door de rol gewoon te vermelden.  
+Als je een onvolledige rolnaam schrijft zal de bot zoeken naar de volgende dichtsbijzijnde, dit is handig als je systeem emoji's hebt als onderdeel van je rolnaam.
 {% endhint %}
 
-### Adding the Top XP Role
+### De Top XP rol toevoegen
 
-You can also reward a user for having the most XP by letting the bot assign a Top XP role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top XP role previously, it will be taken off of them.   
-This feature is a quick and easy way to give users a long-term goal to work towards. It also helps if the Top XP role is hoisted quite high on the server list, and is given a prominent colour. To set the Top XP role, you can type the following command:
+Je kan een gebruiker met de meeste XP ook belonen door de bot een Top XP rol toe te laten kennen. Deze rol wordt gegeven om 00:00 UTC, en wordt maar aan één persoon gegeven op de server. Als een gebruiker eerder de Top XP rol had, zal het van hem worden afgenomen.   
+Deze functie is een snelle en makkelijke manier om gebruikers een lange termijn doel te geven om naar toe te werken. Het helpt ook als de Top XP rol vrij hoog op de serverlijst staat, en een prominente kleur krijgt. Om de Top XP rol in te stellen, kun je het volgende commando typen:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set topXpRole <Role/RoleID/RoleMention>
 ```
 
 {% hint style="warning" %}
-It is **highly** suggested that you also set the Top XP role as a No XP role aswell. Not doing so might lead to the situation that only one person ever recieves the Top XP role since during their day on the Top they keep gaining XP.  
-By letting them not gain XP for a day gives other users time to catch up.
+Het is **zeer** aan te raden om de Top XP rol ook in te stellen als een No XP rol. Als je dit niet doet kan het gebeuren dat maar één persoon ooit de Top XP rol krijgt omdat hij tijdens zijn dag aan de Top XP blijft verdienen.  
+Door ze een dag geen XP te laten verdienen krijgen andere gebruikers de tijd om in te halen.
 {% endhint %}
 
-### Customizing the Level-Up Message
+### Level-Op Bericht Aanpassen
 
-If you find the current Level-Up message to not suit your server style, or you simply want to spice it up a little, you can completely customize it! We currently only support raw text messages \(Not Embeds\)  
-To set the Level-Up message you can type the following command:
+Als u vindt dat het huidige Level-Up bericht niet bij uw serverstijl past, of u wilt het gewoon wat pittiger maken, dan kunt u het volledig aanpassen! Wij ondersteunen momenteel alleen ruwe tekstberichten \(niet Embeds\)  
+Om het Level-Up bericht in te stellen kun je het volgende commando typen:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set xpMessage <Message>
 ```
 
-There are several **tags** you can include in your Level-Up message. These parameters will be replaced with the appropriate information when the Level-Up message is sent.  
+Er zijn verschillende **tags** die je in je Level-Up bericht kunt opnemen. Deze parameters zullen worden vervangen door de juiste informatie wanneer het Level-Up bericht wordt verzonden.  
   
-_You must include the {} brackets in your message for the tags to show up!_
+_Je moet de {} haakjes in je bericht opnemen om de tags te laten verschijnen!_
 
 | Information | Parameter |
 | :--- | :--- |
-| User Mention \(@User\) | {user} |
-| User Tag \(User\#1234\) | {user.tag} |
-| Username \(User\) | {user.username\) |
-| User Discriminator \(1234\) | {user.discriminator} |
-| User ID \(99787644430475264\) | {user.id} |
-| Server Name \(My Cool Server\) | {guild.name} |
-| Server ID \(493351982887862283\) | {guild.id} |
-| Level Reached \(5\) | {level} |
+| Gebruiker Vermelding \(@User\) | {user} |
+| Gebruiker Tag \(User\#1234\) | {user.tag} |
+| Gebruikersnaam \(User\) | {user.username\) |
+| Gebruikersdiscriminator \(1234\) | {user.discriminator} |
+| Gebruikers-ID \(99787644430475264\) | {user.id} |
+| Server Naam \(My Cool Server\) | {guild.name} |
+| Server-ID \(493351982887862283\) | {guild.id} |
+| Level Bereikt \(5\) | {level} |
 
-### Where to send the Level-Up Message
+### Waar het Level-Up bericht te verzenden
 
-By default Pepe Manager will simply send the Level-Up message in the same channel where the user who Leveled-Up last spoke in, but this can sometimes be intrusive and can disrupt normal conversation. Not to worry though, as you can set where Pepe Manager will send the Level-Up message. To set this up, simply type the following command:
+Standaard zal Pepe Manager het Level-Up bericht in hetzelfde kanaal sturen als waar de gebruiker die het laatst met een Level-Up heeft gesproken, maar dit kan soms opdringerig zijn en kan een normaal gesprek verstoren. Maak je echter geen zorgen, want je kunt instellen waar Pepe Manager het Level-Up bericht naartoe zal sturen. Om dit in te stellen, type je simpelweg het volgende commando:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set xpResponseType <Type>
 ```
 
-There are several response types you can choose one. You can only choose one at a time, and the Level-Up message you may have set up earlier will be carried over to each response type. 
+Er zijn verschillende reactietypes waaruit u kunt kiezen. U kunt er slechts één tegelijk kiezen, en het Level-Up bericht dat u eventueel eerder hebt ingesteld, zal naar elk reactietype worden overgedragen. 
 
-| Where Will it be Sent? | Response Type |
+| Waar wordt het heen gestuurd? | Typ antwoord |
 | :--- | :--- |
-| In the same channel as the user | channel |
-| In the user's direct messages | dm |
-| In a specific channel all the time | \#Channel |
-| Nowhere; all messages are off | off |
+| In hetzelfde kanaal als de gebruiker | channel |
+| In de directe berichten van de gebruiker | dm |
+| De hele tijd in een specifiek kanaal | \#Channel |
+| Nergens. Alle berichten zijn uit | off |
 
-### Adding Role Rewards
+### Rolbeloningen toevoegen
 
-The main meat of Leveling: the role rewards. You can set up roles to be given out to users when they reach a specific Level. This can be used to simply indicate the users level with a role, give out special colours to users as they gain higher levels, give out permissions that can be earned through activity, and so much more.   
-With the free version of Pepe Manager you can set up to 2 roles to be given out on the same Level, however overall there is no limit to how many roles you can set up.  
-The premium limit is 10 roles for the same Level.
+De hoofdmoot van het Leveling: de rolbeloningen. Je kunt rollen instellen die aan gebruikers worden gegeven als ze een bepaald niveau bereiken. Dit kan gebruikt worden om het level van een gebruiker aan te duiden met een rol, speciale kleuren aan gebruikers te geven als ze een hoger level bereiken, permissies te geven die verdiend kunnen worden door activiteit, en nog veel meer.   
+Met de gratis versie van Pepe Manager kunt u tot 2 rollen instellen om te worden gegeven op hetzelfde niveau, maar over het algemeen is er geen limiet aan het aantal rollen dat u kunt instellen.  
+De premium limiet is 10 rollen voor hetzelfde niveau.
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set xpRoles <Level> <Role/RoleID/RoleMention>
 ```
 
 {% hint style="info" %}
-Please note that if your role contains multiple words, such as the role **Cool Person**, you must either use the Role ID or Mention, or only write the word **Cool**.  
+Let op: als je rol meerdere woorden bevat, zoals de rol **Cool Persoon**, moet je ofwel de Rol ID of Vermelding gebruiken, of alleen het woord **Cool** schrijven.  
   
-The bot will see the words **Cool** and **Person** as separate roles.
+De bot zal de woorden **Cool** en **Persoon** als aparte rollen zien.
 {% endhint %}
 
-### Automatically Resetting Levels
+### Levels automatisch resetten
 
-Automatically resetting levels can be very useful to keep your server nice and organized, and to punish those you ban even more!  
-When the condition you set has been met, Pepe Manager will automatically the affected users level data \(If they had any\) without questions. **Kicking a user has the same effect as leaving though, so please be careful!**
+Het automatisch resetten van levels kan zeer nuttig zijn om uw server mooi en georganiseerd te houden, en om diegenen die u verbant nog meer te straffen!  
+Wanneer aan de door u ingestelde voorwaarde is voldaan, zal Pepe Manager automatisch de levelgegevens van de betreffende gebruiker (als ze die hadden) resetten zonder vragen te stellen. **Het schoppen van een gebruiker heeft hetzelfde effect als weggaan, dus wees voorzichtig!**
 
-Where  **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set autoResetLevels <Type>
 ```
 
-There are several response types you can choose one. You can only choose one at a time.
+Er zijn verschillende soorten reacties waaruit u kunt kiezen. U kunt er maar één tegelijk kiezen.
 
-| What Will Trigger the Reset? | Response Type |
+| Wat zal de reset teweegbrengen? | Typ antwoord |
 | :--- | :--- |
-| Nothing | none |
-| When the user leaves the server for whatever reason | leave |
-| When the user is banned for whatever reason | ban |
-| When the user leaves or when the user is banned | both |
+| Niets | none |
+| Wanneer de gebruiker de server verlaat om wat voor reden dan ook | leave |
+| Wanneer de gebruiker is verbannen om welke reden dan ook | ban |
+| Wanneer de gebruiker vertrekt of wanneer de gebruiker wordt verbannen | both |
 
-### Toggling Role Stacking
+### Rol stapelen
 
-Now that you've set up some role rewards, you can choose whether or not the bot will stack the roles or not. Stacking means that each additional role reward will simply be added to the users already existing roles. Non-Stacking means that any previous role reward roles will be removed when the user gains a new role. This does not affect roles that are not specifically marked as rewards.  
-By default, stacking is turned **on**.
+Nu je enkele rolbeloningen hebt ingesteld, kan je kiezen of de bot de rollen al dan niet zal stapelen. Stapelen betekent dat elke extra rolbeloning gewoon toegevoegd zal worden aan de reeds bestaande rollen van de gebruiker. Niet stapelen betekent dat alle vorige rolbeloningen verwijderd zullen worden wanneer de gebruiker een nieuwe rol krijgt. Dit heeft geen invloed op rollen die niet specifiek gemarkeerd zijn als beloning.  
+Standaard staat stapelen **aan**.
 
 ```text
 p!config toggle stackXpRoles
 ```
 
-### Final Words
+### Laatse woorden
 
-It's really easy to set up an activity tracking system, but as you want to add more and more features, and reward your users for the loytalty and acitvity it becomes more and more complex. If you are new to bots don't be scared of all of the complicated commands and command structures, new words that bots use to describe what they're doing, etc.  
-Bots can be a fantastic tool to build a great community, and learning the inner workings of a bot you are going to be spending a lot of time with anyway can prove useful later on.
+Het is heel eenvoudig om een activity tracking systeem op te zetten, maar als u meer en meer functies wilt toevoegen, en uw gebruikers wilt belonen voor hun loyaliteit en acitviteit wordt het steeds complexer. Als je nieuw bent met bots, wees dan niet bang voor alle ingewikkelde commando's en commandostructuren, nieuwe woorden die bots gebruiken om te beschrijven wat ze doen, enz.  
+Bots kunnen een fantastisch hulpmiddel zijn om een geweldige gemeenschap op te bouwen, en het leren van de innerlijke werking van een bot waar je toch al veel tijd mee gaat doorbrengen kan later van pas komen.
 

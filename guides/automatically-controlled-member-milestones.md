@@ -1,90 +1,90 @@
 ---
-description: Learn how Pepe Manager can automatically celebrate a milestone with you!
+description: Ontdek hoe Pepe Manager automatisch een mijlpaal met u kan vieren!
 ---
 
-# Automatically Controlled Member Milestones
+# Automatisch gecontroleerde mijlpalen voor leden
 
-### Why Would You Need This?
+### Waarom zou u dit nodig hebben?
 
-Celebrating a member milestone is a super simple and social activity. Whether you're celebrating 100 members or 100,000, it's just as a momentous occasion as any. By celebrating and rewarding the user who joined as your nth member, you can always set a new goal to reach, a new level of growth to achieve. Automating this process is quick and simple, and the possibilities are endless!
+Het vieren van een mijlpaal van een lid is een super eenvoudige en sociale activiteit. Of u nu 100 leden viert of 100.000, het is net zo'n gedenkwaardige gebeurtenis als elke andere. Door het vieren en belonen van de gebruiker die lid werd als uw n-de lid, kunt u altijd een nieuw doel te bereiken, een nieuw niveau van groei te bereiken. Het automatiseren van dit proces is snel en eenvoudig, en de mogelijkheden zijn eindeloos!
 
-### Video Tutorial
+### Video Handleiding
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
+Als u geen zin heeft om lang te lezen, hebben wij een video tutorial gemaakt die u gemakkelijk kunt volgen:
 
 {% embed url="https://youtu.be/nXlhdcH3YaU" %}
 
 
 
-## Guide
+## Handleiding
 
-### Enabling Milestones
+### Mijlpalen inschakelen
 
-The first step is to enable the milestone feature in your Pepe Manager settings. This acts as a useful switch if you want to stop using milestones, but want to keep all of your configured settings we will get into later on. To enable it, type the following command:
+De eerste stap is het inschakelen van de mijlpaalfunctie in uw Pepe Manager-instellingen. Dit werkt als een handige schakelaar als u wilt stoppen met het gebruik van mijlpalen, maar al uw geconfigureerde instellingen wilt behouden waar we later op in zullen gaan. Om het in te schakelen, type het volgende commando:
 
 ```text
 p!config toggle milestones
 ```
 
-### Setting the Milestones Channel
+### Het mijlpaalkanaal instellen
 
-The next step is to set a milestones channel, where all of your automated milestone announcements will be sent in! This can be a regular text channel or if you have a community enable server, this can also be an announcement channel. To set your channel, type the following command:
+De volgende stap is het instellen van een mijlpaal kanaal, waar al uw geautomatiseerde mijlpaal aankondigingen in zullen worden verzonden! Dit kan een gewoon tekstkanaal zijn of als u een community enable server heeft, kan dit ook een aankondigingskanaal zijn. Om uw kanaal in te stellen, type het volgende commando:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set milestonesChannel <Channel/ChannelID/ChannelMention>
 ```
 
-### Setting the Milestones Interval
+### Het mijlpaalinterval instellen
 
-This next step is quite an important one because now you can choose at what member count you want your milestone to be triggered at. The interval is the number of members between each milestone, and by default it is set to **100**. This means that every 100 members, a milestone is triggered, such as **200**, **300**, **400**, etc.  
-The milestone interval can be any number within reason as long as it is a _**multiple of 5**_. Conceivably the interval can be set to **5** or it can be set to **100,000**. To set your interval, type the following command:
+Deze volgende stap is heel belangrijk omdat u nu kunt kiezen bij hoeveel leden u de mijlpaal wilt laten afgaan. Het interval is het aantal leden tussen elke mijlpaal, en standaard is het ingesteld op **100**. Dit betekent dat elke 100 leden een mijlpaal wordt getriggerd, zoals **200**, **300**, **400**, enz.  
+Het mijlpaalinterval kan elk willekeurig getal zijn, zolang het maar een _**veelvoud van 5**_ is. Zo kan het interval worden ingesteld op **5** of op **100.000**. Om uw interval in te stellen, typt u het volgende commando:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set milestonesInterval <Number>
 ```
 
-### Setting the Milestones Message
+### Het mijlpaalbericht instellen
 
-Next up you can also customize your milestone message, which is the message that is sent when a milestone is reached. By default the message looks as follows:
+Vervolgens kunt u ook uw mijlpaalbericht aanpassen, dat is het bericht dat wordt verstuurd wanneer een mijlpaal is bereikt. Standaard ziet het bericht er als volgt uit:
 
 ![](https://i.imgur.com/IUZMJGP.png)
 
-You may include any number of emojis \(As long as the bot can access them\), formatting, line breaks, special characters and even role mentions as long as it is within the 2000 character limit of all messages. To set your milestone message, type the following command:
+U kunt een willekeurig aantal emoji's \(zolang de bot ze kan openen\), opmaak, regeleinden, speciale tekens en zelfs rolvermeldingen toevoegen, zolang het binnen de 2000 karakterlimiet van alle berichten blijft. Om je mijlpaal bericht in te stellen, type het volgende commando:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set milestonesMessage <Message>
 ```
 
 {% hint style="warning" %}
-If you are including a role mention in your message, make sure that Pepe Manager has permission to mention that role, otherwise it won't work and the message might turn out looking very ugly.
+Als u een rolvermelding in uw bericht opneemt, zorg er dan voor dat Pepe Manager toestemming heeft om die rol te vermelden, anders zal het niet werken en kan het bericht er erg lelijk uitzien.
 {% endhint %}
 
-There are several **tags** you can include in your Milestone message. These parameters will be replaced with the appropriate information when the Milestone message is sent.  
+Er zijn verschillende **tags** die u in uw Mijlpaal-bericht kunt opnemen. Deze parameters worden vervangen door de juiste informatie wanneer het Mijlpaalbericht wordt verzonden.  
   
-_You must include the {} brackets in your message for the tags to show up!_
+_U moet de {} haakjes in uw bericht opnemen om de tags te kunnen weergeven!_
 
-| Information | Tag |
+| Informatie | Tag |
 | :--- | :--- |
-| User Mention \(@User\) | {user} |
-| User Tag \(User\#1234\) | {user.tag} |
-| Username \(User\) | {user.username\) |
-| User Discriminator \(1234\) | {user.discriminator} |
-| User ID \(99787644430475264\) | {user.id} |
-| Server Name \(My Cool Server\) | {guild.name} |
-| Server ID \(493351982887862283\) | {guild.id} |
-| Milestone Achieved \(100\) | {milestone} |
+| Gebruiker Vermelding \(@User\) | {user} |
+| Gebruiker Tag \(User\#1234\) | {user.tag} |
+| Gebruikersnaam \(User\) | {user.username\) |
+| Gebruikersdiscriminator \(1234\) | {user.discriminator} |
+| Gebruikers-ID \(99787644430475264\) | {user.id} |
+| Server Naam \(My Cool Server\) | {guild.name} |
+| Server-ID \(493351982887862283\) | {guild.id} |
+| Mijlpaal Bereikt \(100\) | {milestone} |
 
-### Setting the Milestones Role
+### De rol van mijlpalen instellen
 
-Lastly you can also reward users who conveniently joined at exactly the right time by granted them a role or several. Free servers can set up to **5** roles to be given out to that special someone, and [Premium ](../information/patreon-perks.md)servers can set up to **10** roles. To set your milestone role\(s\), type the following command:
+Tenslotte kunt u ook gebruikers belonen die op het juiste moment lid zijn geworden door hen een rol of meerdere rollen toe te kennen. Gratis servers kunnen tot **5** rollen toekennen aan die speciale persoon, en [Premium](../information/patreon-perks.md)-servers kunnen tot **10** rollen toekennen. Om je mijlpaal rol\(len\) in te stellen, type het volgende commando:
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set milestonesRole <Role/RoleID/RoleMention>
@@ -92,7 +92,7 @@ p!config set milestonesRole <Role/RoleID/RoleMention>
 
 ### Final Words
 
-And that's it! You've successfully created Automatically Assigning Roles with Pepe Manager!
+En dat is het! U heeft met succes Automatisch Rollen Toekennen met Pepe Manager gemaakt!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+Als u meer hulp nodig heeft met Pepe Manager, bekijk dan de rest van deze documentatie of sluit u aan bij onze support server om met een echt mens te praten!
 

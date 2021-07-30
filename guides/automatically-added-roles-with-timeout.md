@@ -1,61 +1,61 @@
 ---
 description: >-
-  Learn how Pepe Manager can automatically assign new users roles without
-  breaking the Discord verification system!
+  Leer hoe Pepe Manager automatisch nieuwe gebruikers rollen kan toewijzen zonder
+  het Discord verificatie systeem te breken!
 ---
 
-# Automatically Adding Roles \(With Timeout\)
+# Automatisch toevoegen van rollen \(met time-out\)
 
-### Why Would You Need This?
+### Waarom zou je dit nodig hebben?
 
-Automatically adding roles to new members can serve many useful purposes, from giving new members a cool colour in your chat, to giving out permission roles that can be taken away if needed, or for adding ping roles for announcements.  
-However, if you have a Discord verification level enabled that makes users who don't surpass the verification level needed, automatically adding a role when someone joins will bypass this verification filter! Pepe Manager allows you to set a timer from the moment a user joins to when they will receive the role, so the verification system is not bypassed!
+Automatisch rollen toevoegen aan nieuwe leden kan vele nuttige doelen dienen, van het geven van een coole kleur aan nieuwe leden in je chat, tot het geven van toestemmingsrollen die kunnen worden weggehaald indien nodig, of voor het toevoegen van ping rollen voor aankondigingen.  
+Echter, als je een Discord verificatieniveau hebt ingeschakeld dat gebruikers die het verificatieniveau niet overschrijden nodig maakt, zal het automatisch toevoegen van een rol wanneer iemand toetreedt deze verificatiefilter omzeilen! Pepe Manager staat je toe om een timer in te stellen vanaf het moment dat een gebruiker toetreedt tot wanneer hij de rol zal ontvangen, zodat het verificatie systeem niet omzeild wordt!
 
-### Video Tutorial
+### Video-handleiding
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
+Als u geen zin hebt om lang te lezen, hebben wij een video gemaakt die u gemakkelijk zou moeten kunnen volgen:
 
 {% embed url="https://youtu.be/94NleboBP\_o" %}
 
-## Guide
+## Handleiding
 
-### Evaluating your Verification Level
+### Uw verificatieniveau evalueren
 
-In order for this guide to be most effective, you should go into your server settings, go to the Moderation tab, and double-check which verification level you have selected.
+Om deze handleiding zo effectief mogelijk te laten zijn, moet je naar je serverinstellingen gaan, naar het tabblad Moderatie, en dubbel-checken welk verificatieniveau je hebt geselecteerd.
 
 ![](https://i.imgur.com/dZ9o0ae.png)
 
-The verification level of **Medium** has a timeout of 5 minutes, whereas the **High** and **Highest** settings have a timeout of 10 minutes.
+Het verificatieniveau **Medium** heeft een time-out van 5 minuten, terwijl de instellingen **Hoog** en **Hoogst** een time-out van 10 minuten hebben.
 
-### Setting your Autoroles
+### Uw Autorollen instellen
 
-You can now add your autoroles to Pepe Manager. In the current version, it is not possible to assign different roles to different timeouts, they will all be assigned at the same time.  
-The free version of the bot allows you to assign up to 5 autoroles at the same time, whereas the premium allows you to assign up to 25 autoroles. [Click here to learn more](../information/patreon-perks.md).
+U kunt nu uw autorollen toevoegen aan Pepe Manager. In de huidige versie is het niet mogelijk om verschillende rollen aan verschillende time-outs toe te wijzen, ze zullen allemaal tegelijkertijd worden toegewezen.  
+De gratis versie van de bot staat u toe om tot 5 autorollen tegelijkertijd toe te wijzen, terwijl de premium versie u toestaat om tot 25 autorollen toe te wijzen. [Klik hier voor meer informatie](../information/patreon-perks.md).
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set autoRole <Role/RoleID/RoleMention>
 ```
 
 {% hint style="warning" %}
-You can set all of your autoroles with the same command simply by putting a space between each role, however, this only works for Role Mentions and Role ID's if one or more of the roles you want to assign have a space in their name.  
-Spaces are treated as separators, and if you enter the full role name with a space, Pepe Manager will treat them as 2 separate roles.
+Je kunt al je autorollen met hetzelfde commando instellen door een spatie tussen elke rol te zetten, dit werkt echter alleen voor Rol Vermeldingen en Rol ID's, als één of meer van de rollen die je wilt toewijzen een spatie in hun naam hebben.  
+Spaties worden behandeld als scheidingstekens, en als je de volledige rolnaam met een spatie invoert, zal Pepe Manager ze behandelen als 2 aparte rollen.
 {% endhint %}
 
-### Setting your Timeout
+### Time-out instellen
 
-You can now specify how long the bot should wait before assigning the roles after a user joins. This is not limited to either 5 minutes or 10 minutes, you can set the timeout to as little as 1 minute or as high as 30 minutes.
+Je kunt nu instellen hoelang de bot moet wachten met het toewijzen van de rollen nadat een gebruiker zich heeft aangemeld. Dit is niet beperkt tot 5 minuten of 10 minuten, je kunt de timeout instellen op 1 minuut of zelfs 30 minuten.
 
-Where **&lt; &gt;** implies a required parameter
+Waar **&lt; &gt;** een verplichte parameter inhoudt
 
 ```text
 p!config set autoRoleTimeout <Time>
 ```
 
-### Final Words
+### Laatste woorden
 
-And that's it! You've successfully created Automatically Assigning Roles with Pepe Manager!
+En dat is het! U heeft met succes Automatisch Rollen Toekennen met Pepe Manager gemaakt!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+Als u meer hulp nodig heeft met Pepe Manager, bekijk dan de rest van deze documentatie of sluit u aan bij onze support server om met een echt mens te praten!
 
