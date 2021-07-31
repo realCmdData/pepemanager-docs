@@ -1,54 +1,54 @@
-# Check
+# Sjekk
 
-### Description
+### Beskrivelse
 
 {% hint style="warning" %}
-This is a **method** or **sub-command** of the [Config ](./)command. It is not its own command.
+Dette er en **Metode** eller en **underkommando** av [Config ](./)command. Det er ikke sin egen kommando.
 {% endhint %}
 
-This method of the [config ](./)command can be used to check if you have inputted all of your configuration keys correctly. The command will reply with an embed containing the key name and the value it is set to.
+Denne metoden av [config ](./)command kan bli brukt til å sjekke om du har lagt inn alle konfigurasjonsnøklene riktig. Kommandoen vil svare med et innebygging som inneholder nøkkelnavnet og verdien det er satt til.
 
-If a key is not set it will show a 'No Sign' emoji.  
-If a **set** key is correctly configured, it will show the value it has been set to.  
-Some **set** keys are configured to a default value, which will also been shown on the check command.  
-If a **toggle** key is set to true, it will show a 'Yes Sign' emoji, and if set to false it will show a 'No Sign' emoji.
+Hvis en nøkkel ikke er angitt, viser den en 'No Sign' emoji.  
+Hvis en **set** nøkkel er riktig konfigurert, viser den hva verdien er satt til.  
+Noen **sett** -taster er konfigurert til en standardverdi, som også vil bli vist på kontrollkommandoen.
+Hvis en **veksle** -tast er satt til true, vil den vise en "Yes Sign" -emoji, og hvis den er satt til falsk, vil den vise en "No Sign" -emoji.
 
-### Command Structure
+### Kommandostruktur
 
 ```text
 p!config check
 ```
 
-Below is a table containing all configuration keys that are shown in the check method, alongside all of the default values.
+Nedenfor er en tabell som inneholder alle konfigurasjonsnøkler som vises i kontrollmetoden, sammen med alle standardverdiene.
 
-| Key | Default Check Value |
+| Nøkkel | Standard Sjekkverdi |
 | :--- | :--- |
-| Milestones Channel | ❌ \(Not Set\) |
-| Milestone Interval | ✅ \(100\) |
+| Milestones Kanal | ❌ \(Ikke Satt\) |
+| Milestone Intervall | ✅ \(100\) |
 | Prefix | ✅ \(p!\) |
-| Member Count | ✅ \(On\) |
-| Auto Role | ❌ \(Not Set\) |
-| Auto Role Timeout | ❌ \(Not Set\) |
-| Emoji List | ❌ \(Not Set\) |
-| Blacklisted Channels | ❌ \(Not Set\) |
-| XP Channels | ❌ \(Not Set\) |
-| XP Roles | ❌ \(Not Set\) |
-| Stack XP Roles | ✅ \(True\) |
-| Top XP Role | ❌ \(Not Set\) |
-| No XP Roles | ❌ \(Not Set\) |
-| Auto Publish Channels | ❌ \(Not Set\) |
-| Role Mention Cooldown | ✅ \(0ms\) |
-| Mention Cooldown Roles | ❌ \(Not Set\) |
-| XP Response Type | ✅ \(Same Channel\) |
-| XP Message | ✅ \({user} has reached level **{level}**\) |
-| Milestone Message | ✅ \(**{milestone} Members**  Congratulations to {user}, you were the {milestone}th person to join!\) |
+| Medlemstall  | ✅ \(På\) |
+| Automatisk Rolle | ❌ \(Ikke Satt\) |
+| Automatisk Rolle Pause | ❌ \(Ikke Satt\) |
+| Emoji Liste | ❌ \(Ikke Satt\) |
+| Blokkerte Kanaler | ❌ \(Ikke Satt\) |
+| XP Kanaler | ❌ \(Ikke Satt\) |
+| XP Roller | ❌ \(Ikke Satt\) |
+| Stable XP Roller | ✅ \(Sant\) |
+| Topp XP Rolle | ❌ \(Ikke Satt\) |
+| Ingen XP Roller | ❌ \(Ikke Satt\) |
+| Automatisk Publisering av Kanaler | ❌ \(Ikke Satt\) |
+| Rolle Nevning Nedkjøling | ✅ \(0ms\) |
+| Nevn Roller Nedkjølin | ❌ \(Ikke Satt\) |
+| XP Respons type | ✅ \(Samme kanal\) |
+| XP Melding | ✅ \({user} has reached level **{level}**\) |
+| Milestone Melding | ✅ \(**{milestone} Members**  Congratulations to {user}, you were the {milestone}th person to join!\) |
 
-### **Permission**
+### **Tillatelse**
 
-* `Manage Server`**\(User\)**
+* `Administrer server`**\(Bruker\)**
 * N/A **\(Bot\)**
 
-### Aliases
+### Aliaser
 
 * N/A
 
