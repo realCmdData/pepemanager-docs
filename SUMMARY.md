@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [Help Us Translate!](help-us-translate.md)
 * [Back to pepemanager.com](https://pepemanager.com)
 
 ## Information
