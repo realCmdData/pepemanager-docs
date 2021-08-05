@@ -1,5 +1,10 @@
 # Config
 
+{% hint style="success" %}
+**We have a dashboard!**  
+Everything you can do with the config command you can now do in our user-friendly web-interface! Simply log-in to our website [https://pepemanager.com/](https://pepemanager.com/) and select the server you want to configure!
+{% endhint %}
+
 ### Description
 
 {% hint style="warning" %}

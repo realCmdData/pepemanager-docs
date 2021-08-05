@@ -29,8 +29,9 @@
   * [Reset](config-commands/config/reset.md)
   * [Set](config-commands/config/set.md)
   * [Toggle](config-commands/config/toggle.md)
-* [ResetXP](config-commands/resetxp.md)
 * [Prefix](config-commands/prefix.md)
+* [ResetXP](config-commands/resetxp.md)
+* [Test](config-commands/test.md)
 
 ## Emoji Commands
 
