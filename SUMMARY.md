@@ -53,6 +53,7 @@
 * [Level](leveling-commands/level.md)
 * [MEE6 Import](leveling-commands/mee6-import.md)
 * [Remove XP](leveling-commands/remove-xp.md)
+* [Set XP](leveling-commands/set-xp.md)
 
 ## Image Commands
 
