@@ -46,6 +46,8 @@ p!config delete blacklistedChannels <Channel/ChannelID/ChannelMention>
 
 And that's it! You've successfully learnt how to add and remove blacklisted channels from Pepe Manager to manage your server more efficiently!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human![  
+If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+
+[  
 ](https://discord.gg/pepe)
 

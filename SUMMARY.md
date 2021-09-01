@@ -17,6 +17,7 @@
 * [Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
 * [Automatically Publishing Announcements](guides/automatically-published-announcements.md)
 * [Blacklisting Members from using Commands](guides/blacklisting-members-from-using-commands.md)
+* [Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
 * [Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
 * [Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
 

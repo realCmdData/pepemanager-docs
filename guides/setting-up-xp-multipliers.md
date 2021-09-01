@@ -103,5 +103,9 @@ If you do so, the highest role that a user has that also has a multiplier attach
 p!config toggle prioritiseMultiplierRoleHierarchy
 ```
 
+### Final Words <a id="final-words"></a>
 
+And that's it! You've successfully learnt how to use XP Multipliers in Pepe Manager!
+
+If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
 
