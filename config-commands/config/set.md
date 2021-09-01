@@ -33,6 +33,7 @@ p!config set <Key> <Value>
 | noXpRoles | Roles you do not want to gain XP in the whole server | Role\(s\) |
 | prefix | The server-prefix you want the bot to use \(Default is p!\) | Alphanumeric Values & Symbols |
 | topXpRole | The role you want to give to the user leading the leaderboard that day | Role |
+| vanity | The phrase you want to use for your Leaderboard link \([https://pepe.chat/&lt;vanity&gt;](https://pepe.chat)\) | Alphanumeric Values |
 | xpBlacklistedChannels | Channels you **do not** want XP to be gained in. All other channel will be able to gain XP | Channel\(s\) |
 | xpMessage | The message sent out when someone levels-up | Message |
 | xpMultiplier | Set different multipliers for variable XP gain | [See Here](../../guides/setting-up-xp-multipliers.md) |
