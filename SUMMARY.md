@@ -83,6 +83,7 @@
 
 * [Activatepremium](utility-commands/activatepremium.md)
 * [Avatar](utility-commands/avatar.md)
+* [Banner](utility-commands/banner.md)
 * [Convert](utility-commands/convert.md)
 * [Graph](utility-commands/graph.md)
 * [Growth Change](utility-commands/growth-change.md)
