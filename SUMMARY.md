@@ -50,6 +50,7 @@
   * [View](leveling-commands/background/view.md)
   * [Set](leveling-commands/background/set.md)
   * [Delete](leveling-commands/background/delete.md)
+* [Colour](leveling-commands/colour.md)
 * [Leaderboard](leveling-commands/leaderboard.md)
 * [Level](leveling-commands/level.md)
 * [MEE6 Import](leveling-commands/mee6-import.md)
