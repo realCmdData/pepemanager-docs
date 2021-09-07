@@ -90,6 +90,7 @@
 * [Growth Change](utility-commands/growth-change.md)
 * [Invite](utility-commands/invite.md)
 * [Members](utility-commands/members.md)
+* [Milestone](utility-commands/milestone.md)
 * [Patreon](utility-commands/patreon.md)
 * [Patrons](utility-commands/patrons.md)
 * [Ping](utility-commands/ping.md)
