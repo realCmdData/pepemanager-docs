@@ -172,6 +172,18 @@ By default, stacking is turned **on**.
 p!config toggle stackXpRoles
 ```
 
+### Toggling Leveling in Threads
+
+Pepe Manager can see every message in every thread, and enabling this can mean a lot more diversity and a lot less clutter for different topics in your server, and yet still allowing you to reward active chatters with XP. 
+
+Toggling this **will not** enable XP on all threads, it will enable XP gain on threads that are part of already enabled XP channels. 
+
+By default, leveling in threads is turned **off**.
+
+```text
+p!config toggle xpInThreads
+```
+
 ### Final Words
 
 It's really easy to set up an activity tracking system, but as you want to add more and more features, and reward your users for the loytalty and acitvity it becomes more and more complex. If you are new to bots don't be scared of all of the complicated commands and command structures, new words that bots use to describe what they're doing, etc.  
