@@ -25,6 +25,7 @@ p!config toggle <Key>
 | milestones | Controls if the milestones feature is on or not | ❌ \(Off\) |
 | prioritiseMultiplierRoleHierarchy | Controls if [role prioritisation](https://docs.pepemanager.com/guides/setting-up-xp-multipliers#changing-role-multiplier-hierarchy) is on or not | ❌ \(Multiplier Value\) |
 | stackXpRoles | Controls if [role rewards](https://docs.pepemanager.com/guides/setting-up-server-xp-leveling#toggling-role-stacking) are stacked or not | ✅ \(Stackable\) |
+| xpInThreads | Controls if [leveling XP](../../guides/setting-up-server-xp-leveling.md) is gained in threads | ❌ \(Off\) |
 
 ### **Permission**
 
