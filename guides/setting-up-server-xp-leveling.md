@@ -125,6 +125,49 @@ There are several response types you can choose one. You can only choose one at 
 | In a specific channel all the time | \#Channel |
 | Nowhere; all messages are off | off |
 
+### When to send the Level-Up Message
+
+By default, Pepe Manager will send the Level-Up message after every level increase no matter what. However, you can also configure the bot to send the message at different times and for different reasons/levels. 
+
+Where **&lt; &gt;** implies a required parameter
+
+This first command lets you set exactly which levels should be announced and which shouldn't. You can include as many levels as you want, within reason. Only these levels will then be announced, regardless of where the level-up message will be sent.
+
+```text
+p!config set xpAnnounceLevels <...Levels>
+```
+
+The next command lets you set from what level onwards you want the levels to be announced. This means that any and all levels below this threshold won't be announced, but all of them including the minimum level will be announced.
+
+```text
+p!config set xpAnnounceMinimumLevel <Level>
+```
+
+The next command lets you set if you want levels to only be announced if they are a part of a multiple of a specific number. For example if you only want to announce the levels `5`, `10`, `15` and so on, you would set this command to a multiple of 5.
+
+```text
+p!config set xpAnnounceMultipleOf <Multiple>
+```
+
+Lastly, you can also additionally toggle whether or not you want to announce **only** the levels that also have an XP role attached to them.
+
+```text
+p!config toggle xpAnnounceOnlyXpRoles
+```
+
+The following table shows you the hierarchy of all of these settings and when they go into effect if you've set multiple of them. Please refer to this when you're troubleshooting why a certain level isn't being announced.
+
+| Level Announcement Setting | Hierarchy of Announcement |
+| :--- | :--- |
+| Minimum Level | 1 |
+| Manually Set Levels | 2 |
+| Only XP Roles | 3 |
+| Multiple Of | 4 |
+
+{% hint style="info" %}
+By this table, if you have manually set levels **1**, **2** & **3** to have an announcement, but also set a **multiple of 5**, the only level that would be left out with be **level 4**.
+{% endhint %}
+
 ### Adding Role Rewards
 
 The main meat of Leveling: the role rewards. You can set up roles to be given out to users when they reach a specific Level. This can be used to simply indicate the users level with a role, give out special colours to users as they gain higher levels, give out permissions that can be earned through activity, and so much more.   
