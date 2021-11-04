@@ -6,18 +6,17 @@ This command will let you test if the custom responses you've set up in Pepe Man
 
 ### Command Usage
 
-Where **&lt; &gt;** implies a required parameter
+Where **< > **implies a required parameter
 
-```text
-p!text <milestone/xp>
+```
+p!test <milestone/xp>
 ```
 
 ### **Permission**
 
-* `Manage Server`**\(User\)**
-* N/A **\(Bot\)**
+* `Manage Server`**(User)**
+* N/A **(Bot)**
 
 ### Aliases
 
 * `test_message`
-
