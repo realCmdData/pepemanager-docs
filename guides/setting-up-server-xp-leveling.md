@@ -29,7 +29,7 @@ p!config toggle levels
 
 You can now add specific channels that users can gain XP in. The channels that you set will be the only channels in the server where users can gain XP. You can add multiple channels with the same command (By including a space in between channels) or you can also add channels one after another. To add channels you can type the following command:
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set xpChannels <Channel/ChannelID/ChannelMention>
@@ -53,7 +53,7 @@ _**ALL STEPS BEYOND THIS POINT ARE OPTIONAL**_
 You can now set specific roles to not gain XP, regardless of whether or not the user is in the appropriate leveling channel or not. It is also not important if the user has another role on top or below the role you set to not gain XP. \
 This feature is quite useful if you do not want your staff to gain XP, or to make sure that Muted users do not gain XP, etc. To add a role you can type the following command:
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set noXpRoles <Role/RoleID/RoleMention>
@@ -69,7 +69,7 @@ If you write an incomplete role name the bot will look for the next closest one,
 You can also reward a user for having the most XP by letting the bot assign a Top XP role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top XP role previously, it will be taken off of them. \
 This feature is a quick and easy way to give users a long-term goal to work towards. It also helps if the Top XP role is hoisted quite high on the server list, and is given a prominent colour. To set the Top XP role, you can type the following command:
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set topXpRole <Role/RoleID/RoleMention>
@@ -85,13 +85,13 @@ By letting them not gain XP for a day gives other users time to catch up.
 If you find the current Level-Up message to not suit your server style, or you simply want to spice it up a little, you can completely customize it! We currently only support raw text messages (Not Embeds)\
 To set the Level-Up message you can type the following command:
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set xpMessage <Message>
 ```
 
-There are several **tags **you can include in your Level-Up message. These parameters will be replaced with the appropriate information when the Level-Up message is sent.\
+There are several **tags** you can include in your Level-Up message. These parameters will be replaced with the appropriate information when the Level-Up message is sent.\
 \
 _You must include the {} brackets in your message for the tags to show up!_
 
@@ -110,7 +110,7 @@ _You must include the {} brackets in your message for the tags to show up!_
 
 By default Pepe Manager will simply send the Level-Up message in the same channel where the user who Leveled-Up last spoke in, but this can sometimes be intrusive and can disrupt normal conversation. Not to worry though, as you can set where Pepe Manager will send the Level-Up message. To set this up, simply type the following command:
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set xpResponseType <Type>
@@ -129,7 +129,7 @@ There are several response types you can choose one. You can only choose one at 
 
 By default, Pepe Manager will send the Level-Up message after every level increase no matter what. However, you can also configure the bot to send the message at different times and for different reasons/levels.&#x20;
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 This first command lets you set exactly which levels should be announced and which shouldn't. You can include as many levels as you want, within reason. Only these levels will then be announced, regardless of where the level-up message will be sent.
 
@@ -165,7 +165,7 @@ The following table shows you the hierarchy of all of these settings and when th
 | Multiple Of                | 4                         |
 
 {% hint style="info" %}
-By this table, if you have manually set levels **1**, **2 **&** 3** to have an announcement, but also set a **multiple of 5**, the only level that would be left out with be **level 4**.
+By this table, if you have manually set levels **1**, **2** & **3** to have an announcement, but also set a **multiple of 5**, the only level that would be left out with be **level 4**.
 {% endhint %}
 
 ### Adding Role Rewards
@@ -174,7 +174,7 @@ The main meat of Leveling: the role rewards. You can set up roles to be given ou
 With the free version of Pepe Manager you can set up to 2 roles to be given out on the same Level, however overall there is no limit to how many roles you can set up.\
 The premium limit is 10 roles for the same Level.
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set xpRoles <Level> <Role/RoleID/RoleMention>
@@ -191,7 +191,7 @@ The bot will see the words **Cool** and **Person** as separate roles.
 Automatically resetting levels can be very useful to keep your server nice and organized, and to punish those you ban even more!\
 When the condition you set has been met, Pepe Manager will automatically the affected users level data (If they had any) without questions. **Kicking a user has the same effect as leaving though, so please be careful!**
 
-Where ** < > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set autoResetLevels <Type>
@@ -210,7 +210,7 @@ There are several response types you can choose one. You can only choose one at 
 
 You are obviously using more than one bot in your server, and many times users can use bot commands in channels where you might also want to have leveling enabled. With Pepe Manager you can choose whether or not the bot ignores commands, even if they should be counted as a normal leveling message. For example if someone uses the command `?hug <User>` and you have the prefix `?` blacklisted, that message won't be counted as an XP message.
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!config set xpDisallowedPrefixes <Prefixes>
@@ -246,3 +246,26 @@ If you need any more assistance with Pepe Manager, check out the rest of this do
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
+
+## Troubleshooting
+
+### XP Roles aren't being assigned!
+
+If you think you have set up the XP roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue!
+
+#### 1. Make sure the bot has 'Manage roles' permission
+
+The bot needs to have this permission in order to assign roles. If you're new to Discord, a lot of different permissions are bundled under one permission umbrellla, and giving the manage roles permission also grants users access to assign roles.
+
+#### 2. Make sure the roles you want to assign are below the bot on the role list
+
+Another common issue is that the bot DOES have the manage roles permission, but the highest bot role (ie. The top-most role that the bot is assigned to) is lower down in the role-ranking than the roles you want it to assign. Hierarchy moves from the top to the bottom, so make sure that the bot always has a role that's above the XP roles.
+
+#### 3. Make sure the roles you want to assign aren't integration managed
+
+Integration managed means that the role you want to assign is being used by an external bot or integration. [This](https://i.imgur.com/EkIylx6.png) is what you should see at the top of the role edit page when the role is managed by an integration.
+
+#### 4. It's still not working!
+
+If the bot still isn't assigning the XP roles, join our support server and head over to the #bot-support channel, then react with the 🆘 icon to get access to our human support channel!
+
