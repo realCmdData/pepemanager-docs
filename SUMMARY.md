@@ -11,17 +11,17 @@
 
 ## Guides
 
+* [Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
+* [Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
+* [Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
 * [Automatic Role Mention Cooldown](guides/automatic-role-mention-cooldown.md)
-* [Automatically Adding Roles \(With Timeout\)](guides/automatically-added-roles-with-timeout.md)
+* [Automatically Adding Roles (With Timeout)](guides/automatically-added-roles-with-timeout.md)
 * [Automatically Controlled Emoji-List](guides/automatically-controlled-emoji-list.md)
 * [Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
 * [Automatically Publishing Announcements](guides/automatically-published-announcements.md)
 * [Blacklisting Members from using Commands](guides/blacklisting-members-from-using-commands.md)
-* [Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
-* [Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
-* [Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
 
-## Configuration Commands <a id="config-commands"></a>
+## Configuration Commands <a href="#config-commands" id="config-commands"></a>
 
 * [Config](config-commands/config/README.md)
   * [Check](config-commands/config/check.md)
@@ -104,10 +104,9 @@
 
 ## Links
 
----
+***
 
 * [Invite](https://pepemanager.com/invite)
 * [Levels](https://pepemanager.com/levels)
 * [Support Server](https://discord.gg/pepe)
 * [Patreon](https://pepemanager.com/patreon)
-
