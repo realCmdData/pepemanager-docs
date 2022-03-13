@@ -66,7 +66,13 @@ If you write an incomplete role name the bot will look for the next closest one,
 
 ### Adding the Top XP Role
 
-You can also reward a user for having the most XP by letting the bot assign a Top XP role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top XP role previously, it will be taken off of them. \
+You can also reward a user for having the most XP by letting the bot assign a Top XP role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top XP role previously, it will be taken off of them.&#x20;
+
+{% hint style="info" %}
+The Top XP Role will only be assigned if the qualified person is level 10+. This is done to prevent unfair XP gain by other members in the lower levels where gaining XP is easier.
+{% endhint %}
+
+\
 This feature is a quick and easy way to give users a long-term goal to work towards. It also helps if the Top XP role is hoisted quite high on the server list, and is given a prominent colour. To set the Top XP role, you can type the following command:
 
 Where **< >** implies a required parameter
@@ -251,7 +257,7 @@ If you need any more assistance with Pepe Manager, check out the rest of this do
 
 ### XP Roles aren't being assigned!
 
-If you think you have set up the XP roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue!
+If you think you have set up the XP roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top XP role.
 
 #### 1. Make sure the bot has 'Manage roles' permission
 
