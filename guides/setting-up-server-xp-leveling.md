@@ -105,7 +105,7 @@ _You must include the {} brackets in your message for the tags to show up!_
 | ------------------------------ | -------------------- |
 | User Mention (@User)           | {user}               |
 | User Tag (User#1234)           | {user.tag}           |
-| Username (User)                | {user.username)      |
+| Username (User)                | {user.username}      |
 | User Discriminator (1234)      | {user.discriminator} |
 | User ID (99787644430475264)    | {user.id}            |
 | Server Name (My Cool Server)   | {guild.name}         |
