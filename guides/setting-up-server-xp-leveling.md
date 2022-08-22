@@ -11,7 +11,9 @@ Pepe Manager offers a free and easy-to-use XP and Leveling system so you can kee
 
 ### Video Tutorial
 
-We currently do not have an updated video tutorial for this guide just yet, check back later!
+If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
+
+{% embed url="https://youtu.be/H-x3_94-T8E" %}
 
 ## Guide
 
@@ -19,17 +21,24 @@ We currently do not have an updated video tutorial for this guide just yet, chec
 
 By default, Pepe Manager will not have leveling enabled. Any user activity that may have occurred before you enabled leveling has not been counted. You need to enable it to get started by typing the following command:
 
-<figure><img src="https://i.imgur.com/38nAEGg.png" alt=""><figcaption></figcaption></figure>
+```
+p!config toggle levels
+```
 
-### Adding Leveling Channels
+### Adding Allowed Channels
 
-You can now add specific channels that users can gain XP in. The channels you setup will be by default blacklisted channels, meaning that they are the only ones that are excluded from being able to gain XP. However, as we will explain shortly you can very easily change that within moments. For now, use the /config set command to add as many channels as you want!
+You can now add specific channels that users can gain XP in. The channels that you set will be the only channels in the server where users can gain XP. You can add multiple channels with the same command (By including a space in between channels) or you can also add channels one after another. To add channels you can type the following command:
 
-<figure><img src="https://i.imgur.com/g9cE76r.png" alt=""><figcaption><p>You can add up to 30 channels for free, or 50 channels with <a href="../information/patreon-perks.md">Premium</a>!</p></figcaption></figure>
+Where **< >** implies a required parameter
 
-Now the bot will send a confirmation message of the information you just entered, however included with that is also a grey button that let's you toggle between the blacklist and the whitelist option whilst still retaining all of the channels you just set! If you therefore want **only** the channels you just entered to be used as leveling channels, press the button that says 'Switch to whitelist'
+```
+p!config set xpChannels <Channel/ChannelID/ChannelMention>
+```
 
-<figure><img src="https://i.imgur.com/kZKDETM.png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+You can set the channel by writing the name of the channel, using the channel ID or by simply mentioning the channel.\
+If you write an incomplete channel name the bot will look for the next closest one.
+{% endhint %}
 
 {% hint style="success" %}
 #### And That's It!
@@ -39,41 +48,54 @@ If you only want the very basic leveling setup, you are done now! If you want to
 _**ALL STEPS BEYOND THIS POINT ARE OPTIONAL**_
 {% endhint %}
 
-### Adding No Leveling Roles
+### Adding No XP Roles
 
 You can now set specific roles to not gain XP, regardless of whether or not the user is in the appropriate leveling channel or not. It is also not important if the user has another role on top or below the role you set to not gain XP. \
-This feature is quite useful if you do not want your staff to gain XP, or to make sure that muted users do not gain XP, etc. To add a role you can type the following command:
+This feature is quite useful if you do not want your staff to gain XP, or to make sure that Muted users do not gain XP, etc. To add a role you can type the following command:
 
-<figure><img src="https://i.imgur.com/zPMYF59.png" alt=""><figcaption></figcaption></figure>
+Where **< >** implies a required parameter
 
-### Adding the Daily Top Leveling Role
-
-You can also reward a user for having the most XP by letting the bot assign a Top Leveling role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top Leveling role previously, it will be taken off of them.&#x20;
+```
+p!config set noXpRoles <Role/RoleID/RoleMention>
+```
 
 {% hint style="info" %}
-The Top Leveling Role will only be assigned if the qualified person is level 10+. This is done to prevent unfair XP gain by other members in the lower levels where gaining XP is easier.
+You can set the role by writing the name of the role, using the role ID or by simply mentioning the role.\
+If you write an incomplete role name the bot will look for the next closest one, this is useful if you have system emojis as part of your role name.
+{% endhint %}
+
+### Adding the Top XP Role
+
+You can also reward a user for having the most XP by letting the bot assign a Top XP role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top XP role previously, it will be taken off of them.&#x20;
+
+{% hint style="info" %}
+The Top XP Role will only be assigned if the qualified person is level 10+. This is done to prevent unfair XP gain by other members in the lower levels where gaining XP is easier.
 {% endhint %}
 
 \
-This feature is a quick and easy way to give users a long-term goal to work towards. It also helps if the Top Leveling role is hoisted quite high on the server list, and is given a prominent colour. To set the Top Levleing role, you can type the following command:
+This feature is a quick and easy way to give users a long-term goal to work towards. It also helps if the Top XP role is hoisted quite high on the server list, and is given a prominent colour. To set the Top XP role, you can type the following command:
 
-<figure><img src="https://i.imgur.com/70yQq7B.png" alt=""><figcaption></figcaption></figure>
+Where **< >** implies a required parameter
+
+```
+p!config set topXpRole <Role/RoleID/RoleMention>
+```
 
 {% hint style="warning" %}
-It is **highly** suggested that you also set the Top Leveling role as a [No Leveling role](setting-up-server-xp-leveling.md#adding-no-leveling-roles) aswell. Not doing so might lead to the situation that only one person ever recieves the Top Leveling role since during their day on the Top they keep gaining XP.\
+It is **highly** suggested that you also set the Top XP role as a No XP role aswell. Not doing so might lead to the situation that only one person ever recieves the Top XP role since during their day on the Top they keep gaining XP.\
 By letting them not gain XP for a day gives other users time to catch up.
 {% endhint %}
 
-### Customizing the Level Up Message
+### Customizing the Level-Up Message
 
 If you find the current Level-Up message to not suit your server style, or you simply want to spice it up a little, you can completely customize it! We currently only support raw text messages (Not Embeds)\
 To set the Level-Up message you can type the following command:
 
-<figure><img src="https://i.imgur.com/qztT1hC.png" alt=""><figcaption></figcaption></figure>
+Where **< >** implies a required parameter
 
-This will then open a modal dialog box, in which you can then type and send-off your written out level-up message! When you're done, and are sure that the message is within the 1,000 character limit, click on the submit button!
-
-<figure><img src="https://i.imgur.com/otr8dYH.png" alt=""><figcaption></figcaption></figure>
+```
+p!config set xpMessage <Message>
+```
 
 There are several **tags** you can include in your Level-Up message. These parameters will be replaced with the appropriate information when the Level-Up message is sent.\
 \
@@ -90,17 +112,24 @@ _You must include the {} brackets in your message for the tags to show up!_
 | Server ID (493351982887862283) | {guild.id}           |
 | Level Reached (5)              | {level}              |
 
-### Setting the Level Up Message Destination
+### Where to send the Level-Up Message
 
 By default Pepe Manager will simply send the Level-Up message in the same channel where the user who Leveled-Up last spoke in, but this can sometimes be intrusive and can disrupt normal conversation. Not to worry though, as you can set where Pepe Manager will send the Level-Up message. To set this up, simply type the following command:
 
-<figure><img src="https://i.imgur.com/w6kDXyb.png" alt=""><figcaption></figcaption></figure>
+Where **< >** implies a required parameter
 
-The command will reply with a select menu, asking you to select where to send the level up announcement to. Unless you are selecting a custom channel, simply select an option from the drop-down menu.
+```
+p!config set xpResponseType <Type>
+```
 
-<figure><img src="https://i.imgur.com/ZVapRdf.png" alt=""><figcaption></figcaption></figure>
+There are several response types you can choose one. You can only choose one at a time, and the Level-Up message you may have set up earlier will be carried over to each response type.&#x20;
 
-If you are selecting a custom channel, you must choose the optional slash command option "
+| Where Will it be Sent?             | Response Type |
+| ---------------------------------- | ------------- |
+| In the same channel as the user    | channel       |
+| In the user's direct messages      | dm            |
+| In a specific channel all the time | #Channel      |
+| Nowhere; all messages are off      | off           |
 
 ### When to send the Level-Up Message
 
