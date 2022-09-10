@@ -12,9 +12,7 @@ Well with Pepe Manager you can set it up to make an announcement channel automat
 
 ### Video Tutorial
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
-
-{% embed url="https://youtu.be/d6_HNHrJ8lU" %}
+We currently do not have a video tutorial for this guide just yet, check back later!
 
 ## Guide
 
@@ -38,19 +36,15 @@ Don't worry, the bot will never send any messages on it's own into your announce
 
 ### Configuring the Auto Publisher
 
-Finally, we need to tell Pepe Manager which announcement channel it should automatically publish! By default free servers can set up to 5 separate automatic announcement channels, however, [premium servers](../information/patreon-perks.md) can set up to 25 automatic announcement channels. To get started, type the following command:
+Finally, we need to tell Pepe Manager which announcement channel it should automatically publish! By default, free servers can set up to 5 separate automatic announcement channels, however, [premium servers](../information/patreon-perks.md) can set up to 25 automatic announcement channels. To get started, type the following command:
 
-Where **< >** implies a required parameter
-
-```
-p!config set autoPublishChannels <Channel/ChannelID/ChannelMention>
-```
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 
 And that's it! You've successfully created an Automatically Publishing Announcement Channel with Pepe Manager!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+If you require any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

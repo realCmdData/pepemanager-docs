@@ -8,15 +8,12 @@ description: >-
 
 ### Why Would You Need This?
 
-An essential feature of Discord Emoji Servers is the conveniently created Emoji-Lists. Conventionally they are one channel dedicated to listing all of the emojis that are in one server or in some cases a multitude of servers, so users can easily copy and paste their favourite ones, look for enticing emojis to use, and more. \
-Pepe Manager offers exactly this, plus it gives you the freedom to set it up and forget about it as it does all of the work in the background.
+An essential feature of Discord Emoji Servers is the conveniently created Emoji-Lists. Conventionally they are one channel dedicated to listing all the emojis that are in one server or in some cases a multitude of servers, so users can easily copy and paste their favourite ones, look for enticing emojis to use, and more. \
+Pepe Manager offers exactly this, plus it gives you the freedom to set it up and forget about it as it does all the work in the background.
 
 ### Video Tutorial
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:\
-
-
-{% embed url="https://youtube.com/watch?v=CYMIeDcgeek" %}
+We currently do not have a video tutorial for this guide just yet, check back later!
 
 ## Guide
 
@@ -26,32 +23,19 @@ The first thing you want to do is create a channel for your emoji list. This wil
 
 Next, you want to enter the following command:
 
-Where **< >** implies a required parameter
-
-```
-p!config set emojiListChannel <Channel/ChannelID/ChannelMention>
-```
-
-{% hint style="info" %}
-You can set the channel by writing the name of the channel, using the channel ID or by simply mentioning the channel.\
-If you write an incomplete channel name the bot will look for the next closest one.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### Enabling the List
 
-Next, you will want to enable the emoji list. By default, even if you have set the emojiListChannel, it is not enabled. To enable it, enter the following command:
+Next, you will want to enable the emoji list. By default, even if you have set the Emoji List Channel, it is not enabled. To enable it, enter the following command:
 
-```
-p!config toggle emojiList
-```
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Update the List
 
 Finally, to get your new emoji list going, you need to manually update the emoji list. This is the only time you need to update it manually, however, you can always update the list manually later down the line:
 
-```
-p!updateemojilist
-```
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 
@@ -78,9 +62,9 @@ If you need any more assistance with Pepe Manager, check out the rest of this do
 
 If you think you've set up the emoji-list correctly, make sure to follow these troubleshooting tips in order to fix your issue!
 
-#### 1. Double check the bot permissions
+#### 1. Double-check the bot permissions
 
-Go into the channel permission settings for the emoji list channel and add the highest role that Pepe Manager is assigned to, to the list if it isn't already. Then make sure that the bot has the following permissions _check-marked: View channel, Send messages, Manage messages._
+Go into the channel permission settings for the emoji list channel and add the highest role that Pepe Manager is assigned to, to the list, if it isn't already. Then make sure that the bot has the following permissions _check-marked: View channel, Send messages, Manage messages._
 
 #### _2_. It's still not working!
 

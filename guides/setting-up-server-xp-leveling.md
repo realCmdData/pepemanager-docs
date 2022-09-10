@@ -112,15 +112,15 @@ This first command lets you set exactly which levels should be announced and whi
 
 The next command lets you set from what level onwards you want the levels to be announced. This means that any and all levels below this threshold won't be announced, but all of them including the minimum level will be announced.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The next command lets you set if you want levels to only be announced if they are a part of a multiple of a specific number. For example if you only want to announce the levels `5`, `10`, `15` and so on, you would set this command to a multiple of 5.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lastly, you can also additionally toggle whether or not you want to announce **only** the levels that also have a Leveling Role attached to them.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 The following table shows you the hierarchy of all of these settings and when they go into effect if you've set multiple of them. Please refer to this when you're troubleshooting why a certain level isn't being announced.
 
@@ -141,18 +141,18 @@ The main meat of Leveling: the role rewards. You can set up roles to be given ou
 With the free version of Pepe Manager you can set up to 2 roles to be given out on the same Level, however overall there is no limit to how many roles you can set up.\
 The [premium limit](../information/patreon-perks.md) is 10 roles for the same Level.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 You will then receive a modal box asking you to enter the exact Level you want these particular roles to be assigned at.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Automatically Resetting Levels
 
 Automatically resetting levels can be very useful to keep your server nice and organized, and to punish those you ban even more!\
 When the condition you set has been met, Pepe Manager will automatically the affected users level data (If they had any) without questions. **Kicking a user has the same effect as leaving though, so please be careful!**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 You will then receive a drop-down menu from which you can choose what you want the bot to do. You can only choose one at a time.
 
@@ -186,7 +186,7 @@ Toggling this **will not** enable XP on all threads, it will enable XP gain on t
 
 By default, leveling in threads is turned **off**.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 

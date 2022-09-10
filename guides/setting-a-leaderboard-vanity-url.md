@@ -2,7 +2,7 @@
 
 ### Why Would You Need This?
 
-Using the clunky and unsightly pepemanager.com leaderboard link works, sure. But it is quite unsightly, long and it's not personalized at all! Now, for free, you can set your own special vanity URL that will promise to be short and to the point, and of course easily rememberable! Just for this task we've purchased the short and sweet [pepe.chat](https://pepe.chat) domain, and by setting a vanity URL you will get your very own pepe.chat link, such as [pepe.chat/pepe](https://pepe.chat/pepe)! The link will then automatically redirect to your server's leaderboard!
+Using the clunky and unsightly pepemanager.com leaderboard link works, sure. But it is quite unsightly, long, and it's not personalized at all! Now, for free, you can set your own special vanity URL that will promise to be short and to the point, and of course easily rememberable! Just for this task we've created [levels.pepemanager.com](https://levels.pepemanager.com), and by setting a vanity URL you will get your very own levels.pepemanager.com link, such as [levels.pepemanager.com/cozyhive](https://levels.pepemanager.com/cozyhive)! The link will then automatically redirect to your server's leaderboard!
 
 ### Video Tutorial
 
@@ -33,19 +33,17 @@ Therefore, if another server has taken the vanity you were aiming for, you can s
 
 ### Setting your Vanity
 
-All you have to do to set your vanity URL is to type the command shown below or visit your server dashboard and do it there! Either way within a few moments the vanity should be up and running and you can start linking it to people!
+All you have to do to set your vanity URL is to type the command shown below or visit your server dashboard and do it there! Either way, within a few moments the vanity should be up and running, and you can start linking it to people!
 
-```
-p!config set vanity <Vanity>
-```
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+A modal-box will then appear, in which you can then enter the vanity name you want to assign.
 
 ### Deleting your Vanity
 
 To delete your vanity (In order to set it to something else for example) all you have to do is type the command shown below, or as before visit your server dashboard!
 
-```
-p!config delete vanity
-```
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words <a href="#final-words" id="final-words"></a>
 

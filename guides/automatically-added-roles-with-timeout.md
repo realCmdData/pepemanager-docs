@@ -4,7 +4,7 @@ description: >-
   breaking the Discord verification system!
 ---
 
-# Automatically Adding Roles (With Timeout)
+# On Join Roles (With Timeout)
 
 ### Why Would You Need This?
 
@@ -13,9 +13,7 @@ However, if you have a Discord verification level enabled that makes users who d
 
 ### Video Tutorial
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
-
-{% embed url="https://youtu.be/94NleboBP_o" %}
+We currently do not have a video tutorial for this guide just yet, check back later!
 
 ## Guide
 
@@ -27,31 +25,20 @@ In order for this guide to be most effective, you should go into your server set
 
 The verification level of **Medium** has a timeout of 5 minutes, whereas the **High** and **Highest** settings have a timeout of 10 minutes.
 
-### Setting your Autoroles
+### Setting your On Join Roles
 
-You can now add your autoroles to Pepe Manager. In the current version, it is not possible to assign different roles to different timeouts, they will all be assigned at the same time.\
-The free version of the bot allows you to assign up to 5 autoroles at the same time, whereas the premium allows you to assign up to 25 autoroles. [Click here to learn more](../information/patreon-perks.md).
+You can now add your On Join Roles to Pepe Manager. In the current version, it is not possible to assign different roles to different timeouts, they will all be assigned at the same time.\
+The free version of the bot allows you to assign up to 5 On Join Roles at the same time, whereas the premium allows you to assign up to 25 On Join Roles. [Click here to learn more](../information/patreon-perks.md).
 
-Where **< >** implies a required parameter
-
-```
-p!config set autoRole <Role/RoleID/RoleMention>
-```
-
-{% hint style="warning" %}
-You can set all of your autoroles with the same command simply by putting a space between each role, however, this only works for Role Mentions and Role ID's if one or more of the roles you want to assign have a space in their name.\
-Spaces are treated as separators, and if you enter the full role name with a space, Pepe Manager will treat them as 2 separate roles.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Setting your Timeout
 
 You can now specify how long the bot should wait before assigning the roles after a user joins. This is not limited to either 5 minutes or 10 minutes, you can set the timeout to as little as 1 minute or as high as 30 minutes.
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set autoRoleTimeout <Time>
-```
+A modal-box will then appear, in which you can then enter the time interval you want to assign.
 
 ### Final Words
 

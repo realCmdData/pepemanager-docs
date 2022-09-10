@@ -58,11 +58,9 @@ Whenever applicable, the highest multiplier will always be used!
 
 Global multipliers, as the name suggests, apply to the entire server regardless of role, channel, permissions, etc. They can be useful when you want to regulate the total XP gain on your server, for example if you find that your members are gaining XP a bit too quickly, introducing a global multiplier that is less than 1 will lower the amount of XP gained globally. To add a global multiplier, you can type the following command:
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set xpMultiplier global <Multiplier>
-```
+A modal-box will then appear, in which you can then enter the global multiplier you want to assign.
 
 {% hint style="info" %}
 Using Global Multipliers you can change the leveling curve to match that of other popular bots!\
@@ -76,38 +74,32 @@ __**AmariBot •** x0.09\
 
 ### Setting Channel Multipliers
 
-Channel multipliers allow you to set multipliers on a per-channel basis, but not only that, they also let you set multiple channels to the same multiplier, or set different multipliers for several different channels! To add a channel multiplier, you can type the following command:
+Channel multipliers allow you to set multipliers on a per-channel basis, but not only that, they also let you set multiple channels to the same multiplier, or set different multipliers for several channels! To add a channel multiplier, you can type the following command:
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set xpMultiplier channel <Multiplier> <Channel/ChannelID/ChannelMention>
-```
+A modal-box will then appear, in which you can then enter the global multiplier you want to assign.
 
 ### **Setting Role Multipliers**
 
-Role multipliers work in much the same way as channel multipliers. You can assign several different roles to the same multiplier or create different multipliers for different roles! To add a role multiplier, you can type the following command:
+Role multipliers work in much the same way as channel multipliers. You can assign numerous roles to the same multiplier, or create different multipliers for different roles! To add a role multiplier, you can type the following command:
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set xpMultiplier role <Multiplier> <Role/RoleID/RoleMention>
-```
+A modal-box will then appear, in which you can then enter the global multiplier you want to assign.
 
 ### Changing Role Multiplier Hierarchy
 
 If you haven't read how the regular multiplier hierarchy works, please read [that section](https://docs.pepemanager.com/guides/setting-up-xp-multipliers#understanding-the-hierarchy) first.
 
-Role hierarchy **by default** is managed in the exact same way as all other multipliers; the highest applicable multiplier will be used **regardless** of the role hierarchy. However, you can change the prioritisation of which multiplier is used by toggling it in the config. \
-If you do so, the highest role that a user has that also has a multiplier attached to it will be used, even if a lower ranking role has a higher multiplier. To toggle role hierarchy prioritisation, you can type the following command:
+Role hierarchy **by default** is managed in the exact same way as all other multipliers; the highest applicable multiplier will be used **regardless** of the role hierarchy. However, you can change the prioritization of which multiplier is used by toggling it in the config. \
+If you do so, the highest role that a user has that also has a multiplier attached to it will be used, even if a lower ranking role has a higher multiplier. To toggle role hierarchy prioritization, you can type the following command:
 
-```
-p!config toggle prioritiseMultiplierRoleHierarchy
-```
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words <a href="#final-words" id="final-words"></a>
 
-And that's it! You've successfully learnt how to use XP Multipliers in Pepe Manager!
+And that's it! You've successfully learned how to use XP Multipliers in Pepe Manager!
 
 If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
 
