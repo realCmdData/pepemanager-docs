@@ -8,24 +8,23 @@ It might take a few days to a week after you have invited the bot for the predic
 
 This command can be used to predict when your server will reach a certain milestone or member count. The predictions are based on data that the bot has gathered during it's time on your server, and therefore cannot predict using data from the past. The longer you leave the bot in the server to collect data the more accurate the predictions will most likely be.
 
-Note that the bot can only display predictions while it is not in your server. As long as it isn't in your server it cannot track users in any way. Please also note that by toggling the configuration option `counts` it will prevent the bot from tracking users even while it is still in the server.  
-  
+Note that the bot can only display predictions while it is not in your server. As long as it isn't in your server it cannot track users in any way. Please also note that by toggling the configuration option `counts` it will prevent the bot from tracking users even while it is still in the server.\
+\
 The bot cannot display dates that are too far into the future, it cannot predict member counts that are currently impossible to attain, and it cannot predict for milestones that have already passed.
 
 ### Command Structure
 
-Where **&lt; &gt;** implies a required parameter
+Where **< >** implies a required parameter
 
-```text
+```
 p!predict <Amount>
 ```
 
 ### **Permission**
 
-* N/A **\(User\)**
-* `Embed Links`**\(Bot\)**
+* N/A **(User)**
+* `Embed Links`**(Bot)**
 
 ### Aliases
 
 * N/A
-

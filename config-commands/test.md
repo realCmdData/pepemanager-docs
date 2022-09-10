@@ -6,7 +6,7 @@ This command will let you test if the custom responses you've set up in Pepe Man
 
 ### Command Usage
 
-Where **< > **implies a required parameter
+Where **< >** implies a required parameter
 
 ```
 p!test <milestone/xp>

@@ -102,35 +102,25 @@ The command will reply with a select menu, asking you to select where to send th
 
 If you are selecting a custom channel, you must choose the optional slash command option `values` and in the option field enter the custom channel you want to use.
 
-### When to send the Level-Up Message
+### When to send the Level Up Message
 
 By default, Pepe Manager will send the Level-Up message after every level increase no matter what. However, you can also configure the bot to send the message at different times and for different reasons/levels.&#x20;
 
-Where **< >** implies a required parameter
-
 This first command lets you set exactly which levels should be announced and which shouldn't. You can include as many levels as you want, within reason. Only these levels will then be announced, regardless of where the level-up message will be sent.
 
-```
-p!config set xpAnnounceLevels <...Levels>
-```
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 The next command lets you set from what level onwards you want the levels to be announced. This means that any and all levels below this threshold won't be announced, but all of them including the minimum level will be announced.
 
-```
-p!config set xpAnnounceMinimumLevel <Level>
-```
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The next command lets you set if you want levels to only be announced if they are a part of a multiple of a specific number. For example if you only want to announce the levels `5`, `10`, `15` and so on, you would set this command to a multiple of 5.
 
-```
-p!config set xpAnnounceMultipleOf <Multiple>
-```
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Lastly, you can also additionally toggle whether or not you want to announce **only** the levels that also have an XP role attached to them.
+Lastly, you can also additionally toggle whether or not you want to announce **only** the levels that also have a Leveling Role attached to them.
 
-```
-p!config toggle xpAnnounceOnlyXpRoles
-```
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 The following table shows you the hierarchy of all of these settings and when they go into effect if you've set multiple of them. Please refer to this when you're troubleshooting why a certain level isn't being announced.
 
@@ -138,69 +128,55 @@ The following table shows you the hierarchy of all of these settings and when th
 | -------------------------- | ------------------------- |
 | Minimum Level              | 1                         |
 | Manually Set Levels        | 2                         |
-| Only XP Roles              | 3                         |
-| Multiple Of                | 4                         |
+| Only Leveling Roles        | 3                         |
+| Multiple (Factor) Of       | 4                         |
 
 {% hint style="info" %}
 By this table, if you have manually set levels **1**, **2** & **3** to have an announcement, but also set a **multiple of 5**, the only level that would be left out with be **level 4**.
 {% endhint %}
 
-### Adding Role Rewards
+### Adding Leveling Role Rewards
 
 The main meat of Leveling: the role rewards. You can set up roles to be given out to users when they reach a specific Level. This can be used to simply indicate the users level with a role, give out special colours to users as they gain higher levels, give out permissions that can be earned through activity, and so much more. \
 With the free version of Pepe Manager you can set up to 2 roles to be given out on the same Level, however overall there is no limit to how many roles you can set up.\
-The premium limit is 10 roles for the same Level.
+The [premium limit](../information/patreon-perks.md) is 10 roles for the same Level.
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set xpRoles <Level> <Role/RoleID/RoleMention>
-```
+You will then receive a modal box asking you to enter the exact Level you want these particular roles to be assigned at.&#x20;
 
-{% hint style="info" %}
-Please note that if your role contains multiple words, such as the role **Cool Person**, you must either use the Role ID or Mention, or only write the word **Cool**.\
-\
-The bot will see the words **Cool** and **Person** as separate roles.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Automatically Resetting Levels
 
 Automatically resetting levels can be very useful to keep your server nice and organized, and to punish those you ban even more!\
 When the condition you set has been met, Pepe Manager will automatically the affected users level data (If they had any) without questions. **Kicking a user has the same effect as leaving though, so please be careful!**
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set autoResetLevels <Type>
-```
-
-There are several response types you can choose one. You can only choose one at a time.
+You will then receive a drop-down menu from which you can choose what you want the bot to do. You can only choose one at a time.
 
 | What Will Trigger the Reset?                        | Response Type |
 | --------------------------------------------------- | ------------- |
-| Nothing                                             | none          |
-| When the user leaves the server for whatever reason | leave         |
-| When the user is banned for whatever reason         | ban           |
-| When the user leaves or when the user is banned     | both          |
+| Nothing                                             | None          |
+| When the user leaves the server for whatever reason | Leave/Kick    |
+| When the user is banned for whatever reason         | Ban           |
+| When the user leaves or when the user is banned     | Both          |
 
 ### Blacklisting Bot Prefixes
 
 You are obviously using more than one bot in your server, and many times users can use bot commands in channels where you might also want to have leveling enabled. With Pepe Manager you can choose whether or not the bot ignores commands, even if they should be counted as a normal leveling message. For example if someone uses the command `?hug <User>` and you have the prefix `?` blacklisted, that message won't be counted as an XP message.
 
-Where **< >** implies a required parameter
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-```
-p!config set xpDisallowedPrefixes <Prefixes>
-```
+You will then receive a modal box in which you can enter the message command prefixes you want to be blocked, seperated by a comma.
 
 ### Toggling Role Stacking
 
 Now that you've set up some role rewards, you can choose whether or not the bot will stack the roles or not. Stacking means that each additional role reward will simply be added to the users already existing roles. Non-Stacking means that any previous role reward roles will be removed when the user gains a new role. This does not affect roles that are not specifically marked as rewards.\
 By default, stacking is turned **on**.
 
-```
-p!config toggle stackXpRoles
-```
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Toggling Leveling in Threads
 
@@ -210,9 +186,7 @@ Toggling this **will not** enable XP on all threads, it will enable XP gain on t
 
 By default, leveling in threads is turned **off**.
 
-```
-p!config toggle xpInThreads
-```
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 
@@ -226,9 +200,9 @@ If you need any more assistance with Pepe Manager, check out the rest of this do
 
 ## Troubleshooting
 
-### XP Roles aren't being assigned!
+### Leveling Roles aren't being assigned!
 
-If you think you have set up the XP roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top XP role.
+If you think you have set up the Leveling roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top Leveling role.
 
 #### 1. Make sure the bot has 'Manage roles' permission
 
@@ -236,7 +210,7 @@ The bot needs to have this permission in order to assign roles. If you're new to
 
 #### 2. Make sure the roles you want to assign are below the bot on the role list
 
-Another common issue is that the bot DOES have the manage roles permission, but the highest bot role (ie. The top-most role that the bot is assigned to) is lower down in the role-ranking than the roles you want it to assign. Hierarchy moves from the top to the bottom, so make sure that the bot always has a role that's above the XP roles.
+Another common issue is that the bot DOES have the manage roles permission, but the highest bot role (ie. The top-most role that the bot is assigned to) is lower down in the role-ranking than the roles you want it to assign. Hierarchy moves from the top to the bottom, so make sure that the bot always has a role that's above the Leveling roles.
 
 #### 3. Make sure the roles you want to assign aren't integration managed
 
@@ -244,5 +218,5 @@ Integration managed means that the role you want to assign is being used by an e
 
 #### 4. It's still not working!
 
-If the bot still isn't assigning the XP roles, join our support server and head over to the #bot-support channel, then react with the 🆘 icon to get access to our human support channel!
+If the bot still isn't assigning the Leveling roles, join our support server and head over to the #bot-support channel, then react with the 🆘 icon to get access to our human support channel!
 
