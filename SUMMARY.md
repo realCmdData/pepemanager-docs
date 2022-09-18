@@ -33,15 +33,6 @@
 * [ResetXP](config-commands/resetxp.md)
 * [Test](config-commands/test.md)
 
-## Emoji Commands
-
-* [Create Emoji](emoji-commands/createemoji.md)
-* [Delete Emoji](emoji-commands/deleteemoji.md)
-* [Download Emoji](emoji-commands/downloademoji.md)
-* [Random Emoji](emoji-commands/randomemoji.md)
-* [Rename Emoji](emoji-commands/rename-emoji.md)
-* [Search Emoji](emoji-commands/searchemoji.md)
-
 ## Leveling Commands
 
 * [Add XP](leveling-commands/add-xp.md)
@@ -51,10 +42,20 @@
   * [Delete](leveling-commands/background/delete.md)
 * [Colour](leveling-commands/colour.md)
 * [Leaderboard](leveling-commands/leaderboard.md)
-* [Level](leveling-commands/level.md)
+* [Rank](leveling-commands/level.md)
+* [Sync Role Rewards](leveling-commands/level-1.md)
 * [MEE6 Import](leveling-commands/mee6-import.md)
 * [Remove XP](leveling-commands/remove-xp.md)
 * [Set XP](leveling-commands/set-xp.md)
+
+## Emoji Commands
+
+* [Create Emoji](emoji-commands/createemoji.md)
+* [Delete Emoji](emoji-commands/deleteemoji.md)
+* [Download Emoji](emoji-commands/downloademoji.md)
+* [Random Emoji](emoji-commands/randomemoji.md)
+* [Rename Emoji](emoji-commands/rename-emoji.md)
+* [Search Emoji](emoji-commands/searchemoji.md)
 
 ## Image Commands
 

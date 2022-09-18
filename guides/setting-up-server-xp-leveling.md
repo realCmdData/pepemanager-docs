@@ -112,7 +112,7 @@ This first command lets you set exactly which levels should be announced and whi
 
 The next command lets you set from what level onwards you want the levels to be announced. This means that any and all levels below this threshold won't be announced, but all of them including the minimum level will be announced.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The next command lets you set if you want levels to only be announced if they are a part of a multiple of a specific number. For example if you only want to announce the levels `5`, `10`, `15` and so on, you would set this command to a multiple of 5.
 
