@@ -70,7 +70,7 @@ _You must include the {} brackets in your message for the tags to show up!_
 
 Lastly, you can also reward users who conveniently joined at exactly the right time by granted them a role or several. Free servers can set up to **5** roles to be given out to that special someone, and [Premium ](../information/patreon-perks.md)servers can set up to **10** roles. To set your milestone role(s), type the following command:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 

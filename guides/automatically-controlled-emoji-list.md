@@ -35,7 +35,7 @@ Next, you will want to enable the emoji list. By default, even if you have set t
 
 Finally, to get your new emoji list going, you need to manually update the emoji list. This is the only time you need to update it manually, however, you can always update the list manually later down the line:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 

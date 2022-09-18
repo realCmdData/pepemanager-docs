@@ -7,9 +7,9 @@ This command can be used to synchronize the role rewards that you currently have
 ### Command Structure
 
 Command Options:\
-`member` • Can be used by moderations to synchronize other users.
+`member` • Can be used by moderators or admins to synchronize other users.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 

@@ -112,7 +112,7 @@ This first command lets you set exactly which levels should be announced and whi
 
 The next command lets you set from what level onwards you want the levels to be announced. This means that any and all levels below this threshold won't be announced, but all of them including the minimum level will be announced.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The next command lets you set if you want levels to only be announced if they are a part of a multiple of a specific number. For example if you only want to announce the levels `5`, `10`, `15` and so on, you would set this command to a multiple of 5.
 
@@ -202,7 +202,7 @@ If you need any more assistance with Pepe Manager, check out the rest of this do
 
 ### Leveling Roles aren't being assigned!
 
-If you think you have set up the Leveling roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/level.md), follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top Leveling role.
+If you think you have set up the Leveling roles correctly, but users aren't getting them when they level up or when they press the [Sync button](../leveling-commands/rank.md), follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top Leveling role.
 
 #### 1. Make sure the bot has 'Manage roles' permission
 

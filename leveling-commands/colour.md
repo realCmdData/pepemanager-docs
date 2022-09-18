@@ -2,30 +2,29 @@
 
 ### Description
 
-This command can be used to change the colour of the progression bar in the [level ](level.md)command. The colour change is global, no matter on which server you use the command.
+This command can be used to change the colour of the progression bar in the [level ](rank.md)command. The colour change is global, no matter on which server you use the command.
 
 By default, the progression bar is set to the **average** value, which will calculate the average colour of your profile picture and use it as the bar colour. If you have a GIF profile picture, it will calculate the average colour from the first frame.
 
-You can also set the progression bar to the **role** value. This will take your top-most role that has a colour \(Transparent roles, or roles with the "Default" colour don't count\) and use it as the bar colour. If you set this value the colour will change between servers, depending on the role colour that you have. If you don't have any roles, or only have transparent or "Default" roles, the bot will revert to using your profile picture to calculate an average value.
+You can also set the progression bar to the **role** value. This will take your top-most role that has a colour (Transparent roles, or roles with the "Default" colour don't count) and use it as the bar colour. If you set this value the colour will change between servers, depending on the role colour that you have. If you don't have any roles, or only have transparent or "Default" roles, the bot will revert to using your profile picture to calculate an average value.
 
 Lastly, you can also set the progression bar to a **custom colour** value. This lets you completely customize the bar colour to whatever colour you want, provided you give a correct [hex code](https://www.color-hex.com/).
 
 ### Command Structure
 
-Where **&lt; &gt;** implies a required parameter
+Where **< >** implies a required parameter
 
-```text
+```
 p!colour <Hex|Role|Average>
 ```
 
 ### **Permission**
 
-* N/A **\(User\)**
-* N/A **\(Bot\)**
+* N/A **(User)**
+* N/A **(Bot)**
 
 ### Aliases
 
 * `color`
 * `accent_colour`
 * `accent_color`
-
