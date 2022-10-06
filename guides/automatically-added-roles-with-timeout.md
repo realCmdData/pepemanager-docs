@@ -40,6 +40,20 @@ You can now specify how long the bot should wait before assigning the roles afte
 
 A modal-box will then appear, in which you can then enter the time interval you want to assign.
 
+### Setting Badge-Specific On Join Roles
+
+Rather than manually assigning roles to everyone who joins and has a specific profile badge, like the 3 Hypesquad Houses or a Discord Partner badge, let Pepe Manager do all the work for you!
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+After entering which role(s) you want to assign specific profile badges, you will get a drop-down menu from which you can select any and all profile badges.
+
+{% hint style="warning" %}
+Discord bots can't see paid badges, eg. Nitro or Boost. Therefore we can't reliably tell whether or not a user has that badge and can't therefore be assigned a role.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/zTydLxO.png" alt=""><figcaption></figcaption></figure>
+
 ### Final Words
 
 And that's it! You've successfully created Automatically Assigning Roles with Pepe Manager!
