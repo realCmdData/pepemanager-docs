@@ -2,7 +2,7 @@
 description: Learn how to automatically control who can mention a certain role!
 ---
 
-# Automatic Role Mention Cooldown
+# 👑 Automatic Role Mention Cooldown
 
 ### Why Would You Need This?
 

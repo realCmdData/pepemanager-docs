@@ -1,8 +1,10 @@
 ---
 description: How to Invite Pepe Manager
+cover: .gitbook/assets/PepeBanner.png
+coverY: 0
 ---
 
-# Getting Started
+# ℹ Getting Started
 
 ### Inviting the Bot
 

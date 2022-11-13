@@ -4,7 +4,7 @@ description: >-
   breaking the Discord verification system!
 ---
 
-# On Join Roles (With Timeout)
+# 📬 On Join Roles (With Timeout)
 
 ### Why Would You Need This?
 

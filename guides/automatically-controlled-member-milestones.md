@@ -2,7 +2,7 @@
 description: Learn how Pepe Manager can automatically celebrate a milestone with you!
 ---
 
-# Automatically Controlled Member Milestones
+# 🥇 Automatically Controlled Member Milestones
 
 ### Why Would You Need This?
 

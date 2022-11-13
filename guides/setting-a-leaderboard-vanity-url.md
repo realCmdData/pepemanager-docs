@@ -1,4 +1,4 @@
-# Setting a Leaderboard Vanity URL
+# 🔗 Setting a Leaderboard Vanity URL
 
 ### Why Would You Need This?
 

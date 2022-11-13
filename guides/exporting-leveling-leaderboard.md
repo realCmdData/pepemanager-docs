@@ -2,7 +2,7 @@
 description: Learn how to export your Pepe Manager leaderboard into a tangible file!
 ---
 
-# Exporting Leveling Leaderboard
+# 📃 Exporting Leveling Leaderboard
 
 ### Why Would You Need This?
 

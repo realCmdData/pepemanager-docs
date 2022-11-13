@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
-* [Help Us Translate!](help-us-translate.md)
+* [ℹ Getting Started](README.md)
 * [Back to pepemanager.com](https://pepemanager.com)
 
 ## Information
@@ -11,15 +10,15 @@
 
 ## Guides
 
-* [Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
-* [Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
-* [Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
-* [Automatic Role Mention Cooldown](guides/automatic-role-mention-cooldown.md)
-* [On Join Roles (With Timeout)](guides/automatically-added-roles-with-timeout.md)
-* [Automatically Controlled Emoji-List](guides/automatically-controlled-emoji-list.md)
-* [Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
-* [Automatically Publishing Announcements](guides/automatically-published-announcements.md)
-* [Exporting Leveling Leaderboard](guides/exporting-leveling-leaderboard.md)
+* [📈 Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
+* [🚀 Setting Up XP Multipliers](guides/setting-up-xp-multipliers.md)
+* [🔗 Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
+* [👑 Automatic Role Mention Cooldown](guides/automatic-role-mention-cooldown.md)
+* [📬 On Join Roles (With Timeout)](guides/automatically-added-roles-with-timeout.md)
+* [😄 Automatically Controlled Emoji-List](guides/automatically-controlled-emoji-list.md)
+* [🥇 Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
+* [📣 Automatically Publishing Announcements](guides/automatically-published-announcements.md)
+* [📃 Exporting Leveling Leaderboard](guides/exporting-leveling-leaderboard.md)
 
 ## Configuration Commands <a href="#config-commands" id="config-commands"></a>
 

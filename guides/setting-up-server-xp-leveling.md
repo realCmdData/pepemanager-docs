@@ -2,7 +2,7 @@
 description: Reward your users activity with levels, role rewards and more!
 ---
 
-# Setting Up Server XP/Leveling
+# 📈 Setting Up Server XP/Leveling
 
 ### Why Would You Need This?
 

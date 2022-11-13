@@ -2,7 +2,7 @@
 description: Learn how to set up announcement channels to automatically publish themselves!
 ---
 
-# Automatically Publishing Announcements
+# 📣 Automatically Publishing Announcements
 
 ### Why Would You Need This?
 

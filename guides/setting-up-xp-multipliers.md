@@ -2,7 +2,7 @@
 description: Change who gains how much XP, and where!
 ---
 
-# Setting Up XP Multipliers
+# 🚀 Setting Up XP Multipliers
 
 ### Why Would You Need This?
 

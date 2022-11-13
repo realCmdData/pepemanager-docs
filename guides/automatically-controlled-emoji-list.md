@@ -4,7 +4,7 @@ description: >-
   itself
 ---
 
-# Automatically Controlled Emoji-List
+# 😄 Automatically Controlled Emoji-List
 
 ### Why Would You Need This?
 
