@@ -8,6 +8,13 @@
 * [Bot Permissions](information/bot-permissions.md)
 * [Patreon Perks](information/patreon-perks.md)
 
+## Links
+
+* [Invite](https://pepemanager.com/invite)
+* [Levels](https://pepemanager.com/levels)
+* [Support Server](https://pepemanager.com/support)
+* [Patreon](https://pepemanager.com/patreon)
+
 ## Guides
 
 * [📈 Setting Up Server XP/Leveling](guides/setting-up-server-xp-leveling.md)
@@ -54,7 +61,6 @@
 * [Delete Emoji](emoji-commands/deleteemoji.md)
 * [Download Emoji](emoji-commands/downloademoji.md)
 * [Random Emoji](emoji-commands/randomemoji.md)
-* [Rename Emoji](emoji-commands/rename-emoji.md)
 * [Search Emoji](emoji-commands/searchemoji.md)
 
 ## Image Commands
@@ -67,7 +73,8 @@
 * [Discord Mod](image-commands/discordmod.md)
 * [Enter](image-commands/enter.md)
 * [Exit](image-commands/exit.md)
-* [Hazmat](image-commands/hazmat.md)
+* [Hazmat](image-commands/hazmat/README.md)
+  * [Rename Emoji](image-commands/hazmat/rename-emoji.md)
 * [Hideyhole](image-commands/hideyhole.md)
 * [Jedi](image-commands/jedi.md)
 * [Not Stonks](image-commands/notstonks.md)
@@ -101,12 +108,3 @@
 * [Update Emoji List](utility-commands/update-emoji-list.md)
 * [User Info](utility-commands/user-info.md)
 * [Vote](utility-commands/vote.md)
-
-## Links
-
-***
-
-* [Invite](https://pepemanager.com/invite)
-* [Levels](https://pepemanager.com/levels)
-* [Support Server](https://pepemanager.com/support)
-* [Patreon](https://pepemanager.com/patreon)
