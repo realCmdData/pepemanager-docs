@@ -108,5 +108,5 @@
 
 * [Invite](https://pepemanager.com/invite)
 * [Levels](https://pepemanager.com/levels)
-* [Support Server](https://discord.gg/XUQAnkq2vy)
+* [Support Server](https://pepemanager.com/support)
 * [Patreon](https://pepemanager.com/patreon)
