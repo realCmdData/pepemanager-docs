@@ -12,19 +12,17 @@ Lastly, you can also set the progression bar to a **custom colour** value. This 
 
 ### Command Structure
 
-Where **< >** implies a required parameter
+```
+/colour <value:>
+```
 
-```
-p!colour <Hex|Role|Average>
-```
+| Value                   |                                                   Description |
+| ----------------------- | ------------------------------------------------------------: |
+| Hex Code (e.g. #2ecc71) |                Sets the colour to your custom hex colour code |
+| Average                 | Sets the colour to the average colour of your profile picture |
+| Role                    |       Sets the colour to the role colour of your highest role |
 
 ### **Permission**
 
 * N/A **(User)**
 * N/A **(Bot)**
-
-### Aliases
-
-* `color`
-* `accent_colour`
-* `accent_color`

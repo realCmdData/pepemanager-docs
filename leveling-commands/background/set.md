@@ -12,28 +12,19 @@ Your custom background needs to have an aspect ratio of **4:1**, to fit into the
 
 For the best possible result we recommend that you crop your image manually to fit the aspect ratio before setting it.
 
-{% hint style="info" %}
-The **set** method is the default method when you simply run the background command. Running the background command with an image attached will acomplish the same thing.
-{% endhint %}
-
 {% hint style="danger" %}
 The bot cannot check the uploaded images for NSFW content! If you want your users to not upload NSFW content to their leveling background, we suggest moderating the commands channel!
 {% endhint %}
 
 ### Command Structure
 
-Where **&lt; &gt;** implies a required parameter
-
-```text
-p!background set <AttachedImage/ImageURL>
 ```
+/background set <Attachment>
+```
+
+<figure><img src="https://i.imgur.com/mCI9pym.png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 
-* `Attach Files` **\(User\)**
-* N/A **\(Bot\)**
-
-### Aliases
-
-* N/A
-
+* `Attach Files` **(User)**
+* N/A **(Bot)**

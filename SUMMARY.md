@@ -34,13 +34,15 @@
   * [Delete](config-commands/config/delete.md)
   * [Delete All](config-commands/config/delete-all.md)
   * [Reset](config-commands/config/reset.md)
-  * [Set](config-commands/config/delete-1.md)
-  * [Toggle](config-commands/config/reset-1.md)
+  * [Set](config-commands/config/set.md)
+  * [Toggle](config-commands/config/toggle.md)
 * [Test](config-commands/test.md)
 
 ## Leveling Commands
 
-* [Add XP](leveling-commands/add-xp.md)
+* [Level Add](leveling-commands/level-add.md)
+* [Level Set](leveling-commands/level-set.md)
+* [Level Remove](leveling-commands/level-remove.md)
 * [Background](leveling-commands/background/README.md)
   * [View](leveling-commands/background/view.md)
   * [Set](leveling-commands/background/set.md)

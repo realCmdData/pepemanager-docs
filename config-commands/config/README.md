@@ -27,8 +27,8 @@ The config command has 6 **methods**, or ways to interact with the command. Thes
 | [delete](delete.md)        | Completely removes an entry to a **set** option                                     |
 | [deleteall](delete-all.md) | Completely removes all configuration options you have configured                    |
 | [reset](reset.md)          | Resets an entry of a **toggle** option back to its original state                   |
-| [set](delete-1.md)         | Sets an option to a specified value                                                 |
-| [toggle](reset-1.md)       | Toggles an option to true or false                                                  |
+| [set](set.md)              | Sets an option to a specified value                                                 |
+| [toggle](toggle.md)        | Toggles an option to true or false                                                  |
 
 ### **Permission**
 
