@@ -34,10 +34,8 @@
   * [Delete](config-commands/config/delete.md)
   * [Delete All](config-commands/config/delete-all.md)
   * [Reset](config-commands/config/reset.md)
-  * [Set](config-commands/config/set.md)
-  * [Toggle](config-commands/config/toggle.md)
-* [Prefix](config-commands/prefix.md)
-* [ResetXP](config-commands/resetxp.md)
+  * [Set](config-commands/config/delete-1.md)
+  * [Toggle](config-commands/config/reset-1.md)
 * [Test](config-commands/test.md)
 
 ## Leveling Commands

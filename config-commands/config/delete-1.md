@@ -1,4 +1,4 @@
-# Delete
+# Set
 
 ### Description
 
@@ -6,14 +6,14 @@
 This is a **method** or **sub-command** of the [Config ](./)command. It is not its own command.
 {% endhint %}
 
-This method of the [config ](./)command can be used to delete the options that are listed below. Once an option is deleted there is no way to retrieve it, and must be set manually again.
+This method of the [config ](./)command can be used to set the options that are listed below. You can delete an already set option by using the **delete** method.
 
-The delete method **will not** work on toggle options, please refer to the [reset ](reset.md)method!
+The set method **will not** work on toggle options, please refer to the [toggle](broken-reference) method!
 
 ### Command Structure
 
 ```
-/config delete <Category> <option:>
+/config set <Category> <option:>
 ```
 
 | Category         |                  Option                 |                                                                                   Description |
@@ -33,6 +33,7 @@ The delete method **will not** work on toggle options, please refer to the [rese
 |                  |    Factor for Leveling Announcements    |                       The factor of levels you want to be announced whe nsomeone reaches them |
 |                  |            Leveling Channels            |                                               The channels you want members to gain levels in |
 |                  |      Ignored Leveling Bot Prefixes      |                                The prefixes of text-bots that should be ignored from leveling |
+|                  |             Level Up Message            |                                             The message that gets sent when someone levels up |
 |                  |        Setup Leveling Multiplier        |                                       The multipliers you want to have in effect for leveling |
 |                  |       Level Up Message Destination      |                           The place you want levels to be announced when someone reaches them |
 |                  |       Setup Leveling Role Rewards       |                               The roles you want to give members for reaching a certain level |

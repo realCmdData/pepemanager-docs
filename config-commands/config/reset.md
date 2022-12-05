@@ -6,34 +6,29 @@
 This is a **method** or **sub-command** of the [Config ](./)command. It is not its own command.
 {% endhint %}
 
-This method of the [config ](./)command can be used to reset [toggle ](toggle.md)keys back to their default state.
+This method of the [config ](./)command can be used to reset [toggle ](broken-reference)options back to their default state.
 
-The reset method **will not** work on set keys, please refer to the delete method!
+The reset method **will not** work on set options, please refer to the [delete](delete.md) method!
 
 ### Command Structure
 
-Where **&lt; &gt;** is a required parameter
-
-```text
-p!config reset <Key>
+```
+/config reset <option:>
 ```
 
-| Key | Description | State When Reset |
-| :--- | :--- | :--- |
-| counts | Controls if the bot counts member joins & leaves | ❌ \(Off\) |
-| emojiList | Controls if the emoji list feature is on or not | ❌ \(Off\) |
-| levels | Controls if the leveling feature is on or not | ❌ \(Off\) |
-| milestones | Controls if the milestones feature is on or not | ❌ \(Off\) |
-| stackXpRoles | Controls if [role rewards](https://docs.pepemanager.com/guides/setting-up-server-xp-leveling#toggling-role-stacking) are stacked or not | ✅ \(Stackable\) |
+| Option                 |                                                                                  Description |
+| ---------------------- | -------------------------------------------------------------------------------------------: |
+| Member Join/Leave Data | The information stored on the ammount of members that have either joined or left your server |
+| Leveling System Data   |                                 The information stored on the leveling system of your server |
+| Milestone Data         |                                The information stored on the milestone system of your server |
+| Level Up Message       |                                     The message stored for the level up announcement message |
 
 ### **Permission**
 
-* `Manage Server`**\(User\)**
-* N/A **\(Bot\)**
+* `Manage Server`**(User)**
+* N/A **(Bot)**
 
 ### Aliases
 
 * N/A
-
-
 
