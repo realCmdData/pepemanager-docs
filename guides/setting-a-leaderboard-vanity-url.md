@@ -2,7 +2,7 @@
 
 ### Why Would You Need This?
 
-Using the clunky and unsightly pepemanager.com leaderboard link works, sure. But it is quite unsightly, long, and it's not personalized at all! Now, for free, you can set your own special vanity URL that will promise to be short and to the point, and of course easily rememberable! Just for this task we've created [levels.pepemanager.com](https://levels.pepemanager.com), and by setting a vanity URL you will get your very own levels.pepemanager.com link, such as [levels.pepemanager.com/cozyhive](https://levels.pepemanager.com/cozyhive)! The link will then automatically redirect to your server's leaderboard!
+Using the clunky and unsightly pepemanager.com leaderboard link works, sure. But it is quite unsightly, long, and it's not personalized at all! Now, for free, you can set your own special vanity URL that will promise to be short and to the point, and of course easily rememberable! Just for this task we've created [pepemanager.com/levels](https://pepemanager.com/levels), and by setting a vanity URL you will get your very own levels.pepemanager.com link, such as [pepemanager.com/levels/cozyhive](https://pepemanager.com/levels/cozyhive)! The link will then automatically redirect to your server's leaderboard!
 
 ### Video Tutorial
 
