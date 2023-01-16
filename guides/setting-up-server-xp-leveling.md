@@ -21,6 +21,15 @@ By default, Pepe Manager will not have leveling enabled. Any user activity that 
 
 <figure><img src="https://i.imgur.com/38nAEGg.png" alt=""><figcaption></figcaption></figure>
 
+### What Messages Count for Leveling?
+
+Any of the following messages can count towards leveling progression, provided the member is not blocked from leveling in some way or another.
+
+* Default text messages
+* Reply text messages
+* Slash command usages (Any bot, non-ephemeral)
+* Context menu command usages (Any bot, non-ephemeral)
+
 ### Adding Leveling Channels
 
 You can now add specific channels that users can gain XP in. The channels you setup will be by default blacklisted channels, meaning that they are the only ones that are excluded from being able to gain XP. However, as we will explain shortly you can very easily change that within moments. For now, use the /config set command to add as many channels as you want!
