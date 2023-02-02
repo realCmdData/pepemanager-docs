@@ -40,6 +40,14 @@ Now the bot will send a confirmation message of the information you just entered
 
 <figure><img src="https://i.imgur.com/kZKDETM.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+To simply things and help you understand the different leveling channel modes here is an overview:
+
+**Whitelist** enabled & no leveling channels set = Members **can't** gain levels anywhere
+
+**Blacklist** enabled & no leveling channels set = Members **can** gain levels everywhere
+{% endhint %}
+
 {% hint style="success" %}
 #### And That's It!
 
