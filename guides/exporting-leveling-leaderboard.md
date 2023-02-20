@@ -12,9 +12,17 @@ The reason we implemented an export feature is to essentially **not be an asshol
 
 ## Guide
 
+### How to Export
+
+Exporting your server's leveling data is super easy. You need to either be a server manager (Have the `Manage Server` permission) or be the server owner, and access the dashboard which you can do through [this link](https://pepemanager.com/guilds). Log in with your Discord account if you are prompted to do so.
+
+Once in the dashboard, select the server you want to export the leveling data from, from the tiled array of servers you are allowed to manage. On the left hand side you should be able to see the different sections of the dashboard. Click on the one marked `⚠️ Danger Zone`, and on the following page click on the button labeled `Download Leveling Data`.
+
+Once you've saved the file on your local computer or phone, you've successfully exported the leveling data!
+
 ### File Structure
 
-Below is an example of what the file structure of your leveling leaderboard export will look like,
+Below is an example of what the file structure of your leveling leaderboard export will look like. It is now up to you what you want to do with your data!
 
 ```javascript
 interface Level {
