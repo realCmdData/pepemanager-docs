@@ -20,6 +20,12 @@ Once in the dashboard, select the server you want to export the leveling data fr
 
 Once you've saved the file on your local computer or phone, you've successfully exported the leveling data!
 
+{% hint style="success" %}
+Downloading your leveling data **DOES NOT** delete your leveling data. It creates a copy of the leveling data at the time you request it and saves it seperately to your computer.&#x20;
+
+If you do want to delete your leveling data aswell, you can use the [/config deleteall](../config-commands/config/delete-all.md) command or the `Reset Settings` button in the Danger Zone section of the dashboard.
+{% endhint %}
+
 ### File Structure
 
 Below is an example of what the file structure of your leveling leaderboard export will look like. It is now up to you what you want to do with your data!
