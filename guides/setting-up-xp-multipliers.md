@@ -64,12 +64,12 @@ A modal-box will then appear, in which you can then enter the global multiplier 
 
 {% hint style="info" %}
 Using Global Multipliers you can change the leveling curve to match that of other popular bots!\
-&#x20;_\*Assuming Default XP Options & Multipliers_\
+&#x20;_\*Assuming Default Leveling Options & Multipliers_\
 __\
 __**AmariBot •** x0.09\
-**Atlas •** x0.22\
-**Arcane •** x0.87\
-**MEE6 •** x0.65&#x20;
+**Polaris •** x1.1\
+**Arcane •** Approx. Equal\
+**MEE6 •** x0.32&#x20;
 {% endhint %}
 
 ### Setting Channel Multipliers
