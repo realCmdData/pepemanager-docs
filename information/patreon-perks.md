@@ -2,7 +2,7 @@
 description: Lets see how much you're worth!
 ---
 
-# Patreon Perks
+# 💸 Patreon Perks
 
 ### Perk Explanation
 
@@ -14,18 +14,22 @@ Pepe Manager [Patreon ](https://pepemanager.com/patreon)perks are split into two
 
 Below is a table of all the features that are in one way or another limited in the free version of Pepe Manager. We do not want to create a bot whose core features and functionalities are locked behind a paywall, so we try our best to keep the standard limits as open and nonrestrictive as possible.
 
-| Feature                       | Standard Limit          | Premium Limit        | Single Or Server |
-| ----------------------------- | ----------------------- | -------------------- | ---------------- |
-| XP Roles                      | 5 Roles per Level       | 25 Roles per Level   | Server           |
-| XP Multipliers                | 10 Multipliers Total    | 25 Multipliers Total | Server           |
-| Channels/Roles Per Multiplier | 30 Roles/Channels       | 50 Roles/Channels    | Server           |
-| Image Command Tips            | Tips                    | No Tips              | Both             |
-| Image Vote Lock               | 5 Images Per Vote Cycle | No Limit             | Both             |
-| XP Leaderboard                | 100 Users               | 200 Users            | Server           |
-| XP White/Blacklist Channels   | 30 Channels             | 50 Channels          | Server           |
-| Autorole Limit                | 5 Roles                 | 25 Roles             | Server           |
-| Autopublish Channels          | 5 Channels              | 25 Channels          | Server           |
-| Milestone Roles               | 5 Roles                 | 10 Roles             | Server           |
+| Feature                             | Standard Limit          | Premium Limit              | Single Or Server |
+| ----------------------------------- | ----------------------- | -------------------------- | ---------------- |
+| Leveling Reward Roles **PER LEVEL** | 3 Roles per Level       | **10 Roles per Level ✨**   | Server           |
+| Leveling Reward Roles **TOTAL**     | 30 Roles Total          | **100 Roles Total ✨**      | Server           |
+| Leveling Multipliers                | 5 Multipliers Total     | **25 Multipliers Total ✨** | Server           |
+| Channels/Roles Per Multiplier       | 30 Roles/Channels       | **50 Roles/Channels ✨**    | Server           |
+| Leveling Leaderboard                | 100 Users               | **200 Users ✨**            | Server           |
+| Leveling White/Blacklist Channels   | 30 Channels             | **50 Channels ✨**          | Server           |
+| No Top Leveling Roles               | 10 Roles                | **25 Roles ✨**             | Server           |
+| No Leveling Roles                   | 5 Roles                 | **10 Roles ✨**             | Server           |
+| Ignored Leveling Bot Prefixes       | 10 Prefixes             | **25 Prefixes ✨**          | Server           |
+| On Join Roles                       | 5 Roles                 | **25 Roles ✨**             | Server           |
+| Auto-Publish Channels               | 5 Channels              | **25 Channels ✨**          | Server           |
+| Milestone Reward Roles              | 5 Roles                 | **10 Roles ✨**             | Server           |
+| Image Vote Lock                     | 5 Images Per Vote Cycle | **No Limit ✨**             | Both             |
+| Image Command Tips                  | Tips                    | **No Tips ✨**              | Both             |
 
 ### Our Philosophy
 

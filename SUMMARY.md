@@ -6,7 +6,7 @@
 ## Information
 
 * [Bot Permissions](information/bot-permissions.md)
-* [Patreon Perks](information/patreon-perks.md)
+* [💸 Patreon Perks](information/patreon-perks.md)
 
 ## Links
 
