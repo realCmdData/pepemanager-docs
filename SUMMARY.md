@@ -1,7 +1,7 @@
 # Table of contents
 
 * [ℹ Getting Started](README.md)
-* [Back to pepemanager.com](https://pepemanager.com)
+* [Back to Lurkr.gg](https://lurkr.gg)
 
 ## Information
 
@@ -10,10 +10,10 @@
 
 ## Links
 
-* [Invite](https://pepemanager.com/invite)
-* [Levels](https://pepemanager.com/levels)
-* [Support Server](https://pepemanager.com/support)
-* [Patreon](https://pepemanager.com/patreon)
+* [Invite](https://lurkr.gg/invite)
+* [Levels](https://lurkr.gg/levels)
+* [Support Server](https://lurkr.gg/support)
+* [Patreon](https://lurkr.gg/patreon)
 
 ## Guides
 
