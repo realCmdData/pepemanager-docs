@@ -36,7 +36,7 @@ p!config set mentionCooldown <Time>
 
 ### Final Words
 
-And that's it! You've successfully created automatic role mention cooldowns with Pepe Manager!
+And that's it! You've successfully created automatic role mention cooldowns with Lurkr!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
 
