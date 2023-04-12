@@ -11,17 +11,12 @@ This command can be used to display the total number of guilds across all shards
 ### Command Structure
 
 ```
-p!stats
+/stats
 ```
+
+<figure><img src="https://i.imgur.com/EUhUJwT.png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 
-* N/A **\(User\)**
-* `Embed Links`**\(Bot\)**
-
-### Aliases
-
-* `stats`
-* `bot_info`
-* `bi`
-
+* N/A **(User)**
+* `Embed Links`**(Bot)**

@@ -6,100 +6,47 @@
 This is a **method** or **sub-command** of the [Config ](./)command. It is not its own command.
 {% endhint %}
 
-This method of the [config ](./)command can be used to set the keys that are listed below. The value that you can set keys to varies depending on what key you are trying to set.
+This method of the [config ](./)command can be used to set the options that are listed below. You can delete an already set option by using the **delete** method.
+
+The set method **will not** work on toggle options, please refer to the [toggle](broken-reference) method!
 
 ### Command Structure
 
-Where **&lt; &gt;** is a required parameter
-
-```text
-p!config set <Key> <Value>
+```
+/config set <option:> [values:]
 ```
 
-| Key | Description | Accepted Value |
-| :--- | :--- | :--- |
-| autoPublishChannels | [Announcement channels](https://support.discord.com/hc/en-us/articles/360032008192-Announcement-Channels-) you want automatically publish  | Channel\(s\) |
-| autoResetLevels | Automatically resets user levels if the conditions you set are met | [See Here](https://docs.pepemanager.com/guides/setting-up-server-xp-leveling#automatically-resetting-levels) |
-| autoRole | Roles you want to automatically assign to new members | Role\(s\) |
-| autoRoleTimeout | Length of time between a user joining and getting a role | Time Interval |
-| blacklistedChannels | Channels in which Pepe Manager commands don't work | Channel\(s\) |
-| emojiListChannel | The channel for the automated emoji list | Channel |
-| mentionCooldown | Length of time between role mentions | Time Interval |
-| mentionCooldownRoles | Pingable roles you want to have a ping cooldown on | Role\(s\) |
-| milestonesChannel | The channel for all milestone announcements | Channel |
-| milestonesInterval | The number of members between milestones | Any Multiple of 5 |
-| milestonesMessage | The message sent out when a milestone is reached | Message |
-| milestonesRole | The role\(s\) that is given to the person who joins as the milestone is reached | Role\(s\) |
-| noXpRoles | Roles you do not want to gain XP in the whole server | Role\(s\) |
-| prefix | The server-prefix you want the bot to use \(Default is p!\) | Alphanumeric Values & Symbols |
-| topXpRole | The role you want to give to the user leading the leaderboard that day | Role |
-| xpBlacklistedChannels | Channels you **do not** want XP to be gained in. All other channel will be able to gain XP | Channel\(s\) |
-| xpMessage | The message sent out when someone levels-up | Message |
-| xpMultiplier | Set different multipliers for variable XP gain | [See Here](../../guides/setting-up-xp-multipliers.md) |
-| xpResponseType | The destination of a level-up message | [See Here](https://docs.pepemanager.com/guides/setting-up-server-xp-leveling#where-to-send-the-level-up-message) |
-| xpRoles | Role rewards you want to give out at a specific level | [See Here](https://docs.pepemanager.com/guides/setting-up-server-xp-leveling#adding-role-rewards) |
-| xpWhitelistedChannels | Channels you **want** XP to be gained in. All other channel will not be able to gain XP | Channel\(s\) |
-
-### Value Structure
-
-Below is a table outlining what each of the values listed above will accept in detail. 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Accepted Value</th>
-      <th style="text-align:left">What it Includes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Channel(s)</td>
-      <td style="text-align:left">
-        <p>&#x2022; Channel Mentions (#Channel)</p>
-        <p>&#x2022; Channel Names (Channel)</p>
-        <p>&#x2022; Channel IDs (841218613380644914)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Role(s)</td>
-      <td style="text-align:left">
-        <p>&#x2022; Role Mentions (@Role)</p>
-        <p>&#x2022; Role Names (Role)</p>
-        <p>&#x2022; Role IDs (493352184377901066)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Time Interval</td>
-      <td style="text-align:left">
-        <p>&#x2022; 60 seconds (60s)</p>
-        <p>&#x2022; 1 minute (1m)</p>
-        <p>&#x2022; 3 hours (3h)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Message</td>
-      <td style="text-align:left">&#x2022; Any Valid Discord Message</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Any Multiple of 5</td>
-      <td style="text-align:left">&#x2022; Any number that is a multiple of 5 (10, 15, 50, 10000, 750)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Alphanumeric Values &amp; Symbols</td>
-      <td style="text-align:left">&#x2022; Any character that is either a number (1, 2, 3) or a letter (a,
-        b, c) or a common symbol (!, $, %)</td>
-    </tr>
-  </tbody>
-</table>
+| Option                                  |                                                                                   Description |
+| --------------------------------------- | --------------------------------------------------------------------------------------------: |
+| On Join Roles                           |                             The roles you want your members to get when they join your server |
+| On Join Roles for Badges                |         The roles you want your members with Discord badges to get when they join your server |
+| On Join Role Timer                      |                   The time it takes between a member joining your server and getting the role |
+| Emoji List Channel                      |                                    The channel you want the bot to list all of your emojis in |
+| Default Leveling Card Accent Colour     | The default progress bar colour you want your members to have when they use the /rank command |
+| Automatic Level Resets                  |                                              How the bot will treat automatic leveling resets |
+| No Leveling Roles                       |                                            The roles you don't want to be able to gain levels |
+| No Top Leveling Roles                   |                              The roles you don't want to be able to get the Top Leveling role |
+| Daily Top Leveling Role                 |                  The role you want members to get when they are number one on the leaderboard |
+| Leaderboard Vanity URL                  |                                   The vanity URL you want to have for your server leaderboard |
+| Specific Announcement Levels            |                        The specific levels you want to be announced when someone reaches them |
+| Minimum Leveling Announcement Threshold |                            The minimum level you want to be announced when someone reaches it |
+| Factor for Leveling Announcements       |                       The factor of levels you want to be announced whe nsomeone reaches them |
+| Leveling Channels                       |                                               The channels you want members to gain levels in |
+| Ignored Leveling Bot Prefixes           |                                The prefixes of text-bots that should be ignored from leveling |
+| Level Up Message                        |                                             The message that gets sent when someone levels up |
+| Setup Leveling Multiplier               |                                       The multipliers you want to have in effect for leveling |
+| Level Up Message Destination            |                           The place you want levels to be announced when someone reaches them |
+| Setup Leveling Role Rewards             |                               The roles you want to give members for reaching a certain level |
+| Role Mention Cooldown Time              |                                                        The minimum time between role mentions |
+| Role Mention Cooldown Roles             |                                              The roles you want to have on a mention cooldown |
+| Milestone Channel                       |                                   The channel you want to send all milestone announcements to |
+| Milestone Announcement Interval         |                             The amount of members that need to join before the next milestone |
+| Milestone Announcement Message          |                              The message that will be sent when the next milestone is reached |
+| Milestone Reward Roles                  |                        The role(s) you want to give to the member who joined on the milestone |
+| Auto-Publishing Announcement Channels   |                            The announcement channels you want to be auto-published by the bot |
 
 ### **Permission**
 
-* `Manage Server`**\(User\)**
-* N/A **\(Bot\)**
-
-### Aliases
-
-* N/A
-
-
+* `Manage Server`**(User)**
+* N/A **(Bot)**
 

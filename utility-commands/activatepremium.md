@@ -1,28 +1,24 @@
-# Activatepremium
+# Activate Premium
 
 ### Description
 
 This command can be used to activate the $5 Patreon perks on one server. After successful activation, you must wait 10 seconds before you can use the command again to transfer the premium status to another server.
 
-If you have activated premium on a server, consider checking out what [perks ](https://docs.pepemanager.com/information/patreon-perks)you receive!
+If you want to activate premium on your server, consider checking out the many Patreon Perks you will get!
+
+{% content-ref url="../information/patreon-perks.md" %}
+[patreon-perks.md](../information/patreon-perks.md)
+{% endcontent-ref %}
 
 ### Command Structure:
 
-Where **&lt; &gt;** implies a required parameter
-
-```text
-p!activatepremium <ServerID>
 ```
+/activatepremium
+```
+
+<figure><img src="https://i.imgur.com/UMaGMqS.png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 
-* N/A **\(User\)**
-* N/A **\(Bot\)**
-
-### Aliases
-
-* `activate_premium`
-* `activate`
-* `redeem`
-* `redeem_premium`
-
+* N/A **(User)**
+* N/A **(Bot)**

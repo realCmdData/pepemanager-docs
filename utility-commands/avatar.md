@@ -8,42 +8,34 @@ The command can fetch the avatar of any user on Discord as long as you provide i
 
 ### Command Structure
 
-Where **\[ \]** implies an optional parameter  
-Where **--Size** implies a command tag   
-Where **--Format** implies a command tag
-
-```text
-p!avatar [User] [--Size] [--Format]
+```
+/avatar [user:] [extension:] [size:] [global:]
 ```
 
-The command tags need to be used as an addition to the command:
+<figure><img src="https://i.imgur.com/Ltd8hM7.png" alt=""><figcaption></figcaption></figure>
 
-```text
-[--Size] = --Size [Number]
-[--Format] = --Format [Type]
-```
+Below is a table containing all valid option parameters that can be used in conjunction with the specified option.
 
-Below is a table containing all valid tag parameters that can be used in conjunction with a tag.
+The `global` option lets you select whether or not to grab the users server avatar or global avatar.
 
-| **--Size** | --Format |
-| :--- | :--- |
-| 16 | PNG |
-| 32 | JPG |
-| 64 | JPEG |
-| 128 | GIF |
-| 256 | WEBP |
-| 512 |  |
-| 1024 |  |
-| 2048 |  |
-| 4096 |  |
+| **`size:`** | **`extension:`** |
+| ----------- | ---------------- |
+| 16          | PNG              |
+| 32          | JPG              |
+| 64          | JPEG             |
+| 128         | GIF              |
+| 256         | WEBP             |
+| 512         |                  |
+| 1024        |                  |
+| 2048        |                  |
+| 4096        |                  |
 
 ### **Permission**
 
-* N/A **\(User\)**
-* `Embed Links`**\(Bot\)**
+* N/A **(User)**
+* `Embed Links`**(Bot)**
 
 ### Aliases
 
 * `avatar`
 * `av`
-

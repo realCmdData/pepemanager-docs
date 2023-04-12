@@ -2,42 +2,33 @@
 
 ### Description
 
+{% hint style="info" %}
+Even though this might be classed as a 'moderation' command, we see it more as a utility command.
+
+We have no intentions of ever adding moderation commands since that's not the purpose of Lurkr.
+{% endhint %}
+
 This command can be used to purge or clean a large number of messages from a channel. This can be useful to clean up after a bot raid or to punish a user by removing all of their messages.
 
 The command can only purge up to 100 messages at a time, which only accounts for valid messages picked up by your command tags.
 
 ### Command Structure
 
-Where **&lt; &gt;** implies a required parameter  
-Where **--Channel** implies a command tag   
-Where **--User** implies a command tag  
-Where **--Bots** implies a command tag
-
-```text
-p!purge <Amount> [--Channel] [--User] [--Bots]
+```
+/purge <amount:> [channel:] [user:] [only_bots:]
 ```
 
-The command tags need to be used as an addition to the command:
+<figure><img src="https://i.imgur.com/SJymocg.png" alt=""><figcaption></figcaption></figure>
 
-The **--Channel** tag defines in which channel the purge should take place in \(Default is the channel you use the command in\)  
-The **--User** tag defines which user's messages should be purged. All other messages will be left alone.  
-The **--Bot** tag defines that the purge should only apply to messages sent by bots.
+The command options can be used as an addition to the command:
 
-```text
-[--Channel] = --Channel [#Channel]
-[--User] = --User [@User]
-[--Bots = --Bots
-```
+The `channel:` options defines in which channel the purge should take place in (Default is the channel you use the command in)
+
+The `user:` options defines which user's messages should be purged. All other messages will be left alone.
+
+The `only_bots:` options defines if the purge should only apply to messages sent by Discord bots with the blue BOT badge.
 
 ### **Permission**
 
-* `Manage Messages` **\(User\)**
-* `Manage Messages`**\(Bot\)**
-
-### Aliases
-
-* `purge`
-* `prune`
-* `clear`
-* `clean`
-
+* `Manage Messages` **(User)**
+* `Manage Messages`**(Bot)**

@@ -1,21 +1,18 @@
 ---
 description: >-
-  Learn how Pepe Manager can automatically assign new users roles without
-  breaking the Discord verification system!
+  Learn how Lurkr can automatically assign new users roles without breaking the
+  Discord verification system!
 ---
 
-# Automatically Adding Roles \(With Timeout\)
+# 📬 On Join Roles
 
 ### Why Would You Need This?
 
-Automatically adding roles to new members can serve many useful purposes, from giving new members a cool colour in your chat, to giving out permission roles that can be taken away if needed, or for adding ping roles for announcements.  
-However, if you have a Discord verification level enabled that makes users who don't surpass the verification level needed, automatically adding a role when someone joins will bypass this verification filter! Pepe Manager allows you to set a timer from the moment a user joins to when they will receive the role, so the verification system is not bypassed!
+On Join roles are super useful in order to give new users certain roles, or to give users with special profile badges roles automatically! Lurkr also lets you set a timer before giving these roles so that your Discord Verification system doesn't immediately break!
 
 ### Video Tutorial
 
-If you are averse to long bouts of reading, we have created a video tutorial that should be easy to follow along:
-
-{% embed url="https://youtu.be/94NleboBP\_o" %}
+We currently do not have a video tutorial for this guide just yet, check back later!
 
 ## Guide
 
@@ -25,37 +22,54 @@ In order for this guide to be most effective, you should go into your server set
 
 ![](https://i.imgur.com/dZ9o0ae.png)
 
-The verification level of **Medium** has a timeout of 5 minutes, whereas the **High** and **Highest** settings have a timeout of 10 minutes.
+The verification level of **Medium** has a timeout of _5 minutes_, whereas the **High** and **Highest** settings have a timeout of _10 minutes_.
 
-### Setting your Autoroles
+By assigning a role immediately after a user joins, the verification level doesn't apply to them.
 
-You can now add your autoroles to Pepe Manager. In the current version, it is not possible to assign different roles to different timeouts, they will all be assigned at the same time.  
-The free version of the bot allows you to assign up to 5 autoroles at the same time, whereas the premium allows you to assign up to 25 autoroles. [Click here to learn more](../information/patreon-perks.md).
+Therefore in order for the verification level to still apply, it is advised to set the On Join timeout to the same time as the verification level when we get to that part!
 
-Where **&lt; &gt;** implies a required parameter
+### Setting your On Join Roles
 
-```text
-p!config set autoRole <Role/RoleID/RoleMention>
-```
+You can now add your On Join Roles to Lurkr. In the current version, it is not possible to assign different roles to different timeouts, they will all be assigned at the same time.
 
-{% hint style="warning" %}
-You can set all of your autoroles with the same command simply by putting a space between each role, however, this only works for Role Mentions and Role ID's if one or more of the roles you want to assign have a space in their name.  
-Spaces are treated as separators, and if you enter the full role name with a space, Pepe Manager will treat them as 2 separate roles.
-{% endhint %}
+You can enter as many roles as your current server plan will allow. You can check the limits on the Patreon Perks page!
+
+{% content-ref url="../information/patreon-perks.md" %}
+[patreon-perks.md](../information/patreon-perks.md)
+{% endcontent-ref %}
+
+<figure><img src="https://i.imgur.com/ri6nUsZ.png" alt=""><figcaption></figcaption></figure>
 
 ### Setting your Timeout
 
 You can now specify how long the bot should wait before assigning the roles after a user joins. This is not limited to either 5 minutes or 10 minutes, you can set the timeout to as little as 1 minute or as high as 30 minutes.
 
-Where **&lt; &gt;** implies a required parameter
+<figure><img src="https://i.imgur.com/i3SsTZi.png" alt=""><figcaption></figcaption></figure>
 
-```text
-p!config set autoRoleTimeout <Time>
-```
+A modal-box will then appear, in which you can then enter the time interval you want to assign.
+
+<figure><img src="https://i.imgur.com/fgIdB09.png" alt=""><figcaption></figcaption></figure>
+
+### Setting Badge-Specific On Join Roles
+
+Rather than manually assigning roles to everyone who joins and has a specific profile badge, like the 3 Hypesquad Houses or a Discord Partner badge, let Lurkr do all the work for you!
+
+To get started, type the command below, with the role you want to assign to **one badge** as the values option as shown below.
+
+<figure><img src="https://i.imgur.com/pi6155A.png" alt=""><figcaption></figcaption></figure>
+
+After entering which role(s) you want to assign specific profile badges, you will get a drop-down menu from which you can select any and all profile badges.
+
+<figure><img src="https://i.imgur.com/h8aoUBY.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Discord bots can't see paid badges, eg. Nitro or Boost. Therefore we can't reliably tell whether or not a user has that badge and can't therefore be assigned a role.
+{% endhint %}
 
 ### Final Words
 
-And that's it! You've successfully created Automatically Assigning Roles with Pepe Manager!
+And that's it! You've successfully created On Join Roles with Lurkr!
 
-If you need any more assistance with Pepe Manager, check out the rest of this documentation or join our support server to talk to an actual human!
+If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
 
+{% embed url="https://lurkr.gg/support" %}

@@ -2,7 +2,7 @@
 description: Learn how to automatically control who can mention a certain role!
 ---
 
-# Automatic Role Mention Cooldown
+# 👑 Automatic Role Mention Cooldown
 
 ### Why Would You Need This?
 
@@ -16,23 +16,29 @@ We currently do not have a video tutorial for this guide just yet, check back la
 
 ### Setting up the roles
 
-In order to get started, first, you must set which roles will have a mention cooldown. Typically this will be the moderator role or the administrator role, however, it is entirely up to you which role\(s\) you decide to choose. To set your role\(s\), type the following command:
+In order to get started, first, you must set which roles will have a mention cooldown.
 
-Where **&lt; &gt;** implies a required parameter
+Typically, this will be the moderator role or the administrator role, however, it is entirely up to you which role(s) you decide to choose.
 
-```text
-p!config set mentionCooldownRoles <Role/RoleID/RoleMention>
-```
+To set your role(s), type the following command. You can enter as many roles as your current server plan will allow. You can check the limits on the Patreon Perks page!
+
+{% content-ref url="../information/patreon-perks.md" %}
+[patreon-perks.md](../information/patreon-perks.md)
+{% endcontent-ref %}
+
+<figure><img src="https://i.imgur.com/kbTsW9F.png" alt=""><figcaption></figcaption></figure>
 
 ### Setting up the cooldown time
 
-The cooldown time can be any time between 5 minutes and 30 minutes, and it is the time between when the role mention option is disabled after a mention in a channel to when it is re-enabled. To set your cooldown time, type the following command:
+The cooldown time can be any time between **5 minutes** and **30 minutes**, and it is the time between when the role mention option is disabled after a mention in a channel to when it is re-enabled.
 
-Where **&lt; &gt;** implies a required parameter
+To set your cooldown time, type the following command:
 
-```text
-p!config set mentionCooldown <Time>
-```
+<figure><img src="https://i.imgur.com/BwMbpwo.png" alt=""><figcaption></figcaption></figure>
+
+A modal-box will then appear, in which you can then enter the time interval you want to assign.
+
+<figure><img src="https://i.imgur.com/IMqturq.png" alt=""><figcaption></figcaption></figure>
 
 ### Final Words
 
@@ -40,3 +46,4 @@ And that's it! You've successfully created automatic role mention cooldowns with
 
 If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
 
+{% embed url="https://lurkr.gg/support" %}

@@ -11,16 +11,12 @@ This command can be used to display the latency information between the bot host
 ### Command Structure
 
 ```
-p!ping
+/ping
 ```
+
+<figure><img src="https://i.imgur.com/xui2Aka.png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 
-* N/A **\(User\)**
-* N/A **\(Bot\)**
-
-### Aliases
-
-* `ping`
-* `pong`
-
+* N/A **(User)**
+* N/A **(Bot)**

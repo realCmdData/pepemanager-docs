@@ -9,18 +9,12 @@ The emoji list will try to update as fast as the API will allow it, but dependin
 ### Command Structure
 
 ```
-p!updateemojilist
+/updateemojilist
 ```
+
+<figure><img src="https://i.imgur.com/A5tFtS5.png" alt=""><figcaption></figcaption></figure>
 
 ### **Permission**
 
-* `Manage Server` **\(User\)**
-* N/A **\(Bot\)**
-
-### Aliases
-
-* `update_emoji_list`
-* `update_emote_list`
-* `update_emote_list_channel`
-* `update_emoji_list_channel`
-
+* `Manage Server` **(User)**
+* N/A **(Bot)**
