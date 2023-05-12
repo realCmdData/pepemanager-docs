@@ -1,6 +1,6 @@
 ---
 description: Lets see how much you're worth!
-cover: ../.gitbook/assets/LurkrBannerGold4.png
+cover: ../.gitbook/assets/LurkrBannerGitbook2.png
 coverY: 0
 ---
 
