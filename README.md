@@ -1,6 +1,6 @@
 ---
 description: How to Invite Lurkr
-cover: .gitbook/assets/LurkrBannerD1E1Smalleer (1).png
+cover: .gitbook/assets/LurkrBannerD1E2Wall.png
 coverY: 0
 ---
 

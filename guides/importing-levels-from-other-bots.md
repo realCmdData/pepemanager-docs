@@ -28,12 +28,12 @@ It is therefore important to read through this guide carefully before proceeding
 
 Not all bots are open with their leveling data so that these kinds of transfers are possible. Below is a list of supported bots that allow for our importing feature to work. Below is also a list of bots that **we know** are not compatible because they require special authorization on your behalf to access the leaderboard. Since we would never ask for your Discord credentials, unless these bots change their policies in the future, we **cannot** support them.
 
-|               Bot              |    Leveling Import?   |  Role Reward Import?  |
-| :----------------------------: | :-------------------: | :-------------------: |
-|    [MEE6](https://mee6.xyz)    |           ✅           |           ✅           |
-|   [Atlas](https://atlas.bot)   |           ✅           |           ✅           |
-|  [Arcane](https://arcane.bot/) |   ❌ (Not Supported)   |   ❌ (Not Supported)   |
-| [Amari](https://amaribot.com/) | ❔(API Access Unclear) | ❔(API Access Unclear) |
+|               Bot              |  Leveling Import? |  Role Reward Import?  |
+| :----------------------------: | :---------------: | :-------------------: |
+|    [MEE6](https://mee6.xyz)    |         ✅         |           ✅           |
+|   [Atlas](https://atlas.bot)   |         ✅         |           ✅           |
+| [Amari](https://amaribot.com/) |         ✅         | ❌ (API Not Available) |
+|  [Arcane](https://arcane.bot/) | ❌ (Not Supported) |   ❌ (Not Supported)   |
 
 If you want to see this list get expanded, let us know which bot you would like to switch over from in our support server in the #suggestions channel! We'll let you know if it's technically possible and if enough people are interested, add it to our feature request list!
 
