@@ -6,7 +6,7 @@ description: Let Lurkr take the reigns, completely hassle-free!
 
 ### Why Would You Need This?
 
-Server Leveling can be a painful transition for already set-up servers, and is very often a pain point when server owners/admins want to looking for a different leveling solution. Lurkr allows you to import all levels and role rewards from various supported bots and keep your users leveling data completely intact, so they don't have to start from scratch all over again!
+Server Leveling can be a painful transition for already set-up servers, and is very often a pain point when server owners/admins want to look for a different leveling solution. Lurkr allows you to import all levels and role rewards from various supported bots and keep your users leveling data completely intact, so they don't have to start from scratch all over again!
 
 ### Video Tutorial
 
