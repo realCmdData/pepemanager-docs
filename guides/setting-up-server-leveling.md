@@ -345,6 +345,12 @@ If you need any more assistance with Lurkr, check out the rest of this documenta
 
 ## Troubleshooting
 
+{% hint style="success" %}
+**We've Automated Troubleshooting (Almost)**
+
+With our new [/config troubleshoot](../config-commands/config/troubleshoot.md) command you can quickly check the most common issues with your setup!&#x20;
+{% endhint %}
+
 ### Leveling Roles aren't being Assigned!
 
 If you think you have set up the Leveling roles correctly, but users aren't getting them when they level up or when they use the `/syncrolerewards` command, follow these steps in order to fix your issue! These steps are also the same when troubleshooting the Top Leveling role.

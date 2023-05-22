@@ -37,6 +37,7 @@
   * [Reset](config-commands/config/reset.md)
   * [Set](config-commands/config/set.md)
   * [Toggle](config-commands/config/toggle.md)
+  * [Troubleshoot](config-commands/config/troubleshoot.md)
 * [Test](config-commands/test.md)
 
 ## Leveling Commands
