@@ -8,10 +8,10 @@ coverY: 0
 
 ### Inviting the Bot
 
-To invite Lurkr into your Discord server, go to [https://lurkr.gg/invite](https://lurkr.gg/invite). You will see the following page pop up. On the said page, select the server you want to invite Pepe Manager onto.
+To invite Lurkr into your Discord server, go to [https://lurkr.gg/invite](https://lurkr.gg/invite). You will see the following page pop up. On the said page, select the server you want to invite Lurkr onto.
 
 {% hint style="info" %}
-You need **Manage Server** permission on the server you want to add Pepe Manager to
+You need **Manage Server** permission on the server you want to add Lurkr to
 {% endhint %}
 
 ![](https://i.imgur.com/MG2kjWD.png)
@@ -21,7 +21,7 @@ To confirm, click on Authorize.
 
 ![](https://i.imgur.com/CjQIecp.png)
 
-You might be prompted to fill out a Re-captcha survey to confirm that you are not a bot. Complete the Captcha and click on Continue.\
+You might be prompted to fill out a ReCAPTCHA survey to confirm that you are not a bot. Complete the Captcha and click on Continue.\
 \
 **Congratulations, you have added Lurkr to your server! Check out these cool guides we've made to get you right into the groove with using Lurkr!**
 

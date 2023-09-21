@@ -16,22 +16,7 @@ Lurkr [Patreon ](https://lurkr.gg/patreon)perks are split into two; one is a use
 
 Below is a table of all the features that are in one way or another limited in the free version of Pepe Manager. We do not want to create a bot whose core features and functionalities are locked behind a paywall, so we try our best to keep the standard limits as open and nonrestrictive as possible.
 
-| Feature                             | Standard Limit          | Premium Limit              | Single Or Server |
-| ----------------------------------- | ----------------------- | -------------------------- | ---------------- |
-| Leveling Reward Roles **PER LEVEL** | 3 Roles per Level       | **10 Roles per Level ✨**   | Server           |
-| Leveling Reward Roles **TOTAL**     | 30 Roles Total          | **100 Roles Total ✨**      | Server           |
-| Leveling Multipliers                | 5 Multipliers Total     | **25 Multipliers Total ✨** | Server           |
-| Channels/Roles Per Multiplier       | 30 Roles/Channels       | **50 Roles/Channels ✨**    | Server           |
-| Leveling Leaderboard                | 100 Users               | **200 Users ✨**            | Server           |
-| Leveling White/Blacklist Channels   | 30 Channels             | **50 Channels ✨**          | Server           |
-| No Top Leveling Roles               | 10 Roles                | **25 Roles ✨**             | Server           |
-| No Leveling Roles                   | 5 Roles                 | **10 Roles ✨**             | Server           |
-| Ignored Leveling Bot Prefixes       | 10 Prefixes             | **25 Prefixes ✨**          | Server           |
-| On Join Roles                       | 5 Roles                 | **25 Roles ✨**             | Server           |
-| Auto-Publish Channels               | 5 Channels              | **25 Channels ✨**          | Server           |
-| Milestone Reward Roles              | 5 Roles                 | **10 Roles ✨**             | Server           |
-| Image Vote Lock                     | 5 Images Per Vote Cycle | **No Limit ✨**             | Both             |
-| Image Command Tips                  | Tips                    | **No Tips ✨**              | Both             |
+<table data-header-hidden><thead><tr><th width="197">Feature</th><th width="219">Standard Limit</th><th width="218">Premium Limit ✨</th><th>Single Or Server</th></tr></thead><tbody><tr><td>Feature</td><td>Standard Limit</td><td>Premium Limit</td><td>Single Or Server</td></tr><tr><td>Leveling Reward Roles <strong>PER LEVEL</strong></td><td>3 Roles per Level</td><td><strong>10 Roles per Level ✨</strong></td><td>Server</td></tr><tr><td>Leveling Reward Roles <strong>TOTAL</strong></td><td>30 Roles Total</td><td><strong>100 Roles Total ✨</strong></td><td>Server</td></tr><tr><td>Leveling Multipliers</td><td>5 Multipliers Total</td><td><strong>25 Multipliers Total ✨</strong></td><td>Server</td></tr><tr><td>Channels/Roles Per Multiplier</td><td>30 Roles/Channels</td><td><strong>50 Roles/Channels ✨</strong> </td><td>Server</td></tr><tr><td>Leveling Leaderboard</td><td>100 Users</td><td><strong>200 Users ✨</strong></td><td>Server</td></tr><tr><td>Leveling White/Blacklist Channels</td><td>30 Channels</td><td><strong>50 Channels ✨</strong></td><td>Server</td></tr><tr><td>No Top Leveling Roles </td><td>10 Roles</td><td><strong>25 Roles ✨</strong></td><td>Server</td></tr><tr><td>No Leveling Roles</td><td>5 Roles</td><td><strong>10 Roles ✨</strong></td><td>Server</td></tr><tr><td>Ignored Leveling Bot Prefixes</td><td>10 Prefixes</td><td><strong>25 Prefixes ✨</strong></td><td>Server</td></tr><tr><td>On Join Roles</td><td>5 Roles</td><td><strong>25 Roles ✨</strong></td><td>Server</td></tr><tr><td>Auto-Publish Channels</td><td>5 Channels</td><td><strong>25 Channels ✨</strong></td><td>Server</td></tr><tr><td>Milestone Reward Roles</td><td>5 Roles</td><td><strong>10 Roles ✨</strong></td><td>Server</td></tr><tr><td>Image Vote Lock</td><td>5 Images Per Vote Cycle</td><td><strong>No Limit ✨</strong></td><td>Both</td></tr><tr><td>Image Command Tips</td><td>Tips</td><td><strong>No Tips ✨</strong></td><td>Both</td></tr></tbody></table>
 
 ### Our Philosophy
 
