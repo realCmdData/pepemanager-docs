@@ -28,6 +28,8 @@ The `user:` options defines which user's messages should be purged. All other me
 
 The `only_bots:` options defines if the purge should only apply to messages sent by Discord bots with the blue BOT badge.
 
+The `include_pinned:` option defines whether or not the purge should include messages that have been pinned in the channel.
+
 ### **Permission**
 
 * `Manage Messages` **(User)**
