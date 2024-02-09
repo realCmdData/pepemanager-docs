@@ -15,7 +15,7 @@ The command can only purge up to 100 messages at a time, which only accounts for
 ### Command Structure
 
 ```
-/purge <amount:> [channel:] [user:] [only_bots:]
+/purge <amount:> [channel:] [user:] [only_bots:] [include_pinned:]
 ```
 
 <figure><img src="https://i.imgur.com/SJymocg.png" alt=""><figcaption></figcaption></figure>

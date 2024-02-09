@@ -1,19 +1,9 @@
 # Table of contents
 
-* [ℹ Getting Started](README.md)
-* [Back to Lurkr.gg](https://lurkr.gg)
-
 ## Information
 
-* [Bot Permissions](information/bot-permissions.md)
-* [💸 Patreon Perks](information/patreon-perks.md)
-
-## Links
-
-* [Invite](https://lurkr.gg/invite)
-* [Levels](https://lurkr.gg/levels)
-* [Support Server](https://lurkr.gg/support)
-* [Patreon](https://lurkr.gg/patreon)
+* [ℹ Getting Started](README.md)
+* [👑 Patreon Perks](information/patreon-perks.md)
 
 ## Guides
 
@@ -32,6 +22,7 @@
 
 * [Config](config-commands/config/README.md)
   * [Check](config-commands/config/check.md)
+  * [Debug](config-commands/config/debug.md)
   * [Delete](config-commands/config/delete.md)
   * [Delete All](config-commands/config/delete-all.md)
   * [Reset](config-commands/config/reset.md)
@@ -48,6 +39,7 @@
 * [Level Role](leveling-commands/level-remove-1.md)
 * [Background](leveling-commands/background/README.md)
   * [Delete](leveling-commands/background/delete.md)
+  * [Report](leveling-commands/background/report.md)
   * [Set](leveling-commands/background/set.md)
   * [View](leveling-commands/background/view.md)
 * [Colour](leveling-commands/colour.md)

@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/LurkrBannerGitbook2.png
 coverY: 0
 ---
 
-# 💸 Patreon Perks
+# 👑 Patreon Perks
 
 ### Perk Explanation
 

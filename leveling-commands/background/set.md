@@ -13,9 +13,9 @@ Your custom background needs to have an aspect ratio of **4:1**, to fit into the
 For the best possible result we recommend that you crop your image manually to fit the aspect ratio before setting it.
 
 {% hint style="danger" %}
-**As of right now, Lurkr cannot check the uploaded images for NSFW content!**
+**Someone Uploaded an NSFW/Innapropriate Image!**
 
-If you want your users to not upload NSFW content to their leveling background, we suggest moderating the commands channel!
+You can now use the [/background report](report.md) command in order to report the image to the Support Team, where each report is analyzed by a human to determine if it violates the Discord Terms of Service.
 {% endhint %}
 
 ### Command Structure
