@@ -69,7 +69,7 @@ To simply things and help you understand the different leveling channel modes he
 If you only want the very basic leveling setup, you are done now! If you want to go more in-depth and learn about many more features that you can use, continue with the next guide!
 {% endhint %}
 
-{% content-ref url="customize-level-up-message.md" %}
-[customize-level-up-message.md](customize-level-up-message.md)
+{% content-ref url="customize-level-up-messages.md" %}
+[customize-level-up-messages.md](customize-level-up-messages.md)
 {% endcontent-ref %}
 

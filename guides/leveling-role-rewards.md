@@ -87,3 +87,15 @@ Non-Stacking means that any previous role reward roles will be removed when the 
 By default, stacking is turned **on**.
 
 <figure><img src="../.gitbook/assets/Discord_5IAmJr3NHb.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+### Final Words <a href="#final-words" id="final-words"></a>
+
+And that's it! You've successfully learnt about Leveling Role Rewards!
+
+If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
+
+{% content-ref url="../information/troubleshooting.md" %}
+[troubleshooting.md](../information/troubleshooting.md)
+{% endcontent-ref %}

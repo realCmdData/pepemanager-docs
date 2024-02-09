@@ -9,7 +9,7 @@
 ## Guides
 
 * [📈 Initial Leveling Setup](guides/setting-up-server-leveling.md)
-* [🗯 Customize Level Up Message](guides/customize-level-up-message.md)
+* [🗯 Customize Level Up Messages](guides/customize-level-up-messages.md)
 * [✨ Leveling Role Rewards](guides/leveling-role-rewards.md)
 * [⚙ Leveling Automation](guides/leveling-automation.md)
 * [📀 Importing Levels From Other Bots](guides/importing-levels-from-other-bots.md)

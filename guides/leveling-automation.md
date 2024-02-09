@@ -80,3 +80,15 @@ By default, leveling in threads is turned **off**.
 {% hint style="info" %}
 Toggling this **will not** enable levels on all threads, it will enable level gain on threads that are part of already enabled XP channels.&#x20;
 {% endhint %}
+
+***
+
+### Final Words <a href="#final-words" id="final-words"></a>
+
+And that's it! You've successfully learnt about Leveling Automation!
+
+If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
+
+{% content-ref url="../information/troubleshooting.md" %}
+[troubleshooting.md](../information/troubleshooting.md)
+{% endcontent-ref %}

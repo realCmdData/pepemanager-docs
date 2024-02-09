@@ -8,10 +8,6 @@ description: Let Lurkr take the reigns, completely hassle-free!
 
 Server Leveling can be a painful transition for already set-up servers, and is very often a pain point when server owners/admins want to look for a different leveling solution. Lurkr allows you to import all levels and role rewards from various supported bots and keep your users leveling data completely intact, so they don't have to start from scratch all over again!
 
-### Video Tutorial
-
-We currently do not have an updated video tutorial for this guide just yet, check back later!
-
 ## Guide
 
 ### Important Information
@@ -28,16 +24,16 @@ It is therefore important to read through this guide carefully before proceeding
 
 Not all bots are open with their leveling data so that these kinds of transfers are possible. Below is a list of supported bots that allow for our importing feature to work. Below is also a list of bots that **we know** are not compatible because they require special authorization on your behalf to access the leaderboard. Since we would never ask for your Discord credentials, unless these bots change their policies in the future, we **cannot** support them.
 
-|               Bot              |  Leveling Import? |  Role Reward Import?  |
-| :----------------------------: | :---------------: | :-------------------: |
-|    [MEE6](https://mee6.xyz)    |         ✅         |           ✅           |
-|   [Atlas](https://atlas.bot)   |         ✅         |           ✅           |
-| [Amari](https://amaribot.com/) |         ✅         | ❌ (API Not Available) |
-|  [Arcane](https://arcane.bot/) | ❌ (Not Supported) |   ❌ (Not Supported)   |
+|               Bot              |  Leveling Import? | Role Reward Import? |
+| :----------------------------: | :---------------: | :-----------------: |
+|    [MEE6](https://mee6.xyz)    |         ✅         |          ✅          |
+|   [Atlas](https://atlas.bot)   |         ✅         |          ✅          |
+| [Amari](https://amaribot.com/) |         ✅         |          ✅          |
+|  [Arcane](https://arcane.bot/) | ❌ (Not Supported) |  ❌ (Not Supported)  |
 
 If you want to see this list get expanded, let us know which bot you would like to switch over from in our support server in the #suggestions channel! We'll let you know if it's technically possible and if enough people are interested, add it to our feature request list!
 
-
+***
 
 ### Import Levels
 
@@ -48,6 +44,8 @@ Lets get started on importing your levels to Lurkr! In order to use the command 
 To start, enter the `/importxp` command and wait for the option fields to be populated. You will now have an option to choose one of the above supported bots!
 
 <figure><img src="https://i.imgur.com/V7zolEQ.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 #### Role Rewards
 
@@ -60,6 +58,8 @@ Since importing role rewards **only** transfers the information which Discord ro
 Click on **True** in order to import the role rewards, or **False** if you just want to import the levels.
 
 <figure><img src="https://i.imgur.com/QVYwDPA.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 #### Until Option
 
@@ -75,6 +75,8 @@ By default, the `until` value is set to 5.
 
 <figure><img src="https://i.imgur.com/nMSotqw.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 #### Success?
 
 Once you've sent the command away, Lurkr will now collect all of the relevant data from your old bot and transfer it all into it's own database. The reply message will update to keep you apprised of the transfer progress.&#x20;
@@ -82,6 +84,8 @@ Once you've sent the command away, Lurkr will now collect all of the relevant da
 Once it has finished the message should look like this, and you will be able to use the `/leaderboard` command or the `/config check` command to double-check if all of your data has been moved over!
 
 <figure><img src="https://i.imgur.com/px2NXLp.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 #### Are We Hypocrites?
 
@@ -94,6 +98,8 @@ All of which is why we allow you to export/download your leveling data at **any 
 {% content-ref url="exporting-leveling-leaderboard.md" %}
 [exporting-leveling-leaderboard.md](exporting-leveling-leaderboard.md)
 {% endcontent-ref %}
+
+***
 
 ### Final Words
 

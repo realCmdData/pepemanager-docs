@@ -8,10 +8,6 @@ description: Stand out from the crowd!
 
 Vanity URL's, like the name already implies, makes you stand out and away from the long string of numbers that normally represent your server. Give your leaderboard it's own unique flair by giving it the same name as your server, or an acronym to let your members find the leaderboard easier!
 
-### Video Tutorial
-
-We currently do not have a video tutorial for this guide just yet, check back later!
-
 ## Guide
 
 ### Make sure you have leveling set up
@@ -21,6 +17,8 @@ Before following this guide, please make sure that you have correctly set up lev
 {% content-ref url="setting-up-server-leveling.md" %}
 [setting-up-server-leveling.md](setting-up-server-leveling.md)
 {% endcontent-ref %}
+
+***
 
 ### Choosing a Good Vanity
 
@@ -38,6 +36,8 @@ If you set a vanity, no other server can use it and vice-versa.
 Therefore, if another server has taken the vanity you were aiming for, you can simply try a different technique to choosing a good vanity!
 {% endhint %}
 
+***
+
 ### Setting your Vanity
 
 All you have to do to set your vanity URL is to type the command shown below or visit your server dashboard and do it there! Either way, within a few moments the vanity should be up and running, and you can start linking it to people!
@@ -48,11 +48,15 @@ A modal-box will then appear, in which you can then enter the vanity name you wa
 
 <figure><img src="https://i.imgur.com/c4MGUVJ.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ### Deleting your Vanity
 
 To delete your vanity (In order to set it to something else for example) all you have to do is type the command shown below, or as before visit your server dashboard!
 
 <figure><img src="https://i.imgur.com/7EHTjnZ.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ### Final Words <a href="#final-words" id="final-words"></a>
 
@@ -60,4 +64,6 @@ And that's it! You've successfully learnt how to add and remove a vanity URL!
 
 If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
 
-{% embed url="https://lurkr.gg/support" %}
+{% content-ref url="../information/troubleshooting.md" %}
+[troubleshooting.md](../information/troubleshooting.md)
+{% endcontent-ref %}

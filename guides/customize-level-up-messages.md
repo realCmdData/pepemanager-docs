@@ -1,8 +1,6 @@
-# 🗯 Customize Level Up Message
+# 🗯 Customize Level Up Messages
 
 ## Guide
-
-***
 
 ### Customizing the Level Up Message
 
@@ -84,3 +82,15 @@ The following table shows you the hierarchy of all of these settings and when th
 {% hint style="info" %}
 By this table, if you have manually set levels **1**, **2** & **3** to have an announcement, but also set a **multiple of 5**, the only level that would be left out with be **level 4**.
 {% endhint %}
+
+***
+
+### Final Words <a href="#final-words" id="final-words"></a>
+
+And that's it! You've successfully learnt how to customize level up messages!
+
+If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
+
+{% content-ref url="../information/troubleshooting.md" %}
+[troubleshooting.md](../information/troubleshooting.md)
+{% endcontent-ref %}

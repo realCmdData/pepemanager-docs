@@ -22,6 +22,8 @@ Before following this guide, please make sure that you have correctly set up lev
 [setting-up-server-leveling.md](setting-up-server-leveling.md)
 {% endcontent-ref %}
 
+***
+
 ### Understanding Multipliers
 
 Multipliers might take some getting used to, but don't worry! That's what this guide is for! Multipliers essentially take the amount of XP a user would normal receive for a valid message, and multiply it by however much the multiplier is set to. For example if a user gains `34` XP for one message, but the server has a global multiplier of x1.5, they will actually receive `51` XP.  \
@@ -31,6 +33,8 @@ However, multipliers can also be set below 1, meaning a multiplier of x0.5 is va
 {% hint style="info" %}
 If you prefer to think in percentages; a multiplier of x1.5 equals a 150% XP gain, and a multiplier of x3.4 equals a 340% XP gain.
 {% endhint %}
+
+***
 
 ### Understanding the Hierarchy
 
@@ -59,6 +63,8 @@ If we talk in #Channel-C, the global multiplier will be used, since there is no 
 Whenever applicable, the highest multiplier will always be used!
 {% endhint %}
 
+***
+
 ### Setting Global Multipliers
 
 Global multipliers, as the name suggests, apply to the entire server regardless of role, channel, permissions, etc. They can be useful when you want to regulate the total leveling gain on your server, for example if you find that your members are gaining levels a bit too quickly, introducing a global multiplier that is less than 1 will lower the amount of levels gained globally. To add a global multiplier, you can type the following command:
@@ -79,6 +85,8 @@ Using Global Multipliers you can change the leveling curve to match that of othe
 **MEE6 •** x0.32&#x20;
 {% endhint %}
 
+***
+
 ### Setting Channel Multipliers
 
 Channel multipliers allow you to set multipliers on a per-channel basis.
@@ -97,6 +105,8 @@ A modal-box will then appear, in which you can then enter the channel multiplier
 
 <figure><img src="https://i.imgur.com/YSwSxIw.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ### **Setting Role Multipliers**
 
 Role multipliers work in much the same way as channel multipliers.
@@ -114,6 +124,8 @@ To add a role multiplier, you can type the following command. In the `values` op
 A modal-box will then appear, in which you can then enter the role multiplier you want to assign.
 
 <figure><img src="https://i.imgur.com/SUPrpPl.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ### Changing Role Multiplier Hierarchy
 
@@ -147,10 +159,14 @@ To toggle role hierarchy prioritization, you can type the following command:
 
 <figure><img src="https://i.imgur.com/DNrz3aS.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ### Final Words <a href="#final-words" id="final-words"></a>
 
 And that's it! You've successfully learned how to use leveling Multipliers in Lurkr!
 
 If you need any more assistance with Lurkr, check out the rest of this documentation or join our support server to talk to an actual human!
 
-{% embed url="https://lurkr.gg/support" %}
+{% content-ref url="../information/troubleshooting.md" %}
+[troubleshooting.md](../information/troubleshooting.md)
+{% endcontent-ref %}
