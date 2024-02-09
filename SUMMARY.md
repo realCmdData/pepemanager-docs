@@ -4,10 +4,14 @@
 
 * [ℹ Getting Started](README.md)
 * [👑 Patreon Perks](information/patreon-perks.md)
+* [🔧 Troubleshooting](information/troubleshooting.md)
 
 ## Guides
 
-* [📥 Setting Up Server Leveling](guides/setting-up-server-leveling.md)
+* [📈 Initial Leveling Setup](guides/setting-up-server-leveling.md)
+* [🗯 Customize Level Up Message](guides/customize-level-up-message.md)
+* [✨ Leveling Role Rewards](guides/leveling-role-rewards.md)
+* [⚙ Leveling Automation](guides/leveling-automation.md)
 * [📀 Importing Levels From Other Bots](guides/importing-levels-from-other-bots.md)
 * [🚀 Setting Up Leveling Multipliers](guides/setting-up-leveling-multipliers.md)
 * [🔗 Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
