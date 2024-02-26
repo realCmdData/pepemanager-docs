@@ -26,6 +26,7 @@ Toggle options are mostly used to turn specific features of Lurkr on or off.
 | Stack Leveling Role Rewards                        |                                     Toggles between if role rewards are stacked or not |
 | Only announce Level-Ups Together with Role Rewards | Toggles between if level announcements are only sent if a role reward is also assigned |
 | Leveling in Threads                                |                       Turns on or off the leveling system in threads (and forums) only |
+| Vote Boosted Leveling                              |   Turns on or off the 20% boost to leveling members get for voting for Lurkr on Top.gg |
 
 ### **Permission**
 
