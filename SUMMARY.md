@@ -3,7 +3,7 @@
 ## Information
 
 * [ℹ️ Getting Started](README.md)
-* [👑 Patreon Perks](information/patreon-perks.md)
+* [👑 Premium Perks](information/patreon-perks.md)
 * [🔧 Troubleshooting](information/troubleshooting.md)
 
 ## Guides

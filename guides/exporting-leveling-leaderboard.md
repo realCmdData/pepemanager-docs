@@ -6,7 +6,7 @@ description: Learn how to export your Lurkr leaderboard into a tangible file!
 
 ### Why Would You Need This?
 
-Well, we seriously hope you really really **DON'T** need this, surprisingly! We want to make Pepe Manager as accessible, feature-full and easy to use as no bot before it!\
+Well, we seriously hope you really really **DON'T** need this, surprisingly! We want to make Lurkr as accessible, feature-full and easy to use as no bot before it!\
 \
 The reason we implemented an export feature is to essentially **not be an asshole** and lock you dear user into a bot that you realistically cannot remove without great detriment to your community by taking away all of the months or even years of leveling grinding your users have already done.
 
