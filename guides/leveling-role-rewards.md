@@ -1,3 +1,9 @@
+---
+description: >-
+  Discover how to give your members awesome rewards as they engage with your
+  server and climb Lurkr's ranks.
+---
+
 # ✨ Leveling Role Rewards
 
 ## Guide

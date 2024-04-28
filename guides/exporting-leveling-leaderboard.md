@@ -1,5 +1,7 @@
 ---
-description: Learn how to export your Lurkr leaderboard into a tangible file!
+description: >-
+  Secure and manage your community data. Learn how to export Lurkr's leveling
+  information for backup, analysis, or migration.
 ---
 
 # 📃 Exporting Leveling Leaderboard

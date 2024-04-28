@@ -1,5 +1,7 @@
 ---
-description: Reward your users activity with levels, role rewards and more!
+description: >-
+  Prepare Lurkr for observation. This guide covers the initial steps to get
+  Lurkr tracking activity and rewarding your members.
 ---
 
 # 📈 Initial Leveling Setup

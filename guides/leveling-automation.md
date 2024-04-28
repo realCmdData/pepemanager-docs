@@ -1,8 +1,10 @@
 ---
-description: Further settings to automate and customize your server leveling!
+description: >-
+  Streamline your moderation and member engagement with automatic level
+  adjustments, including resets for banned members.
 ---
 
-# ⚙ Leveling Automation
+# ⚙️ Leveling Automation
 
 ## Guide
 

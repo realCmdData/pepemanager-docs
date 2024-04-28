@@ -1,4 +1,8 @@
-# 🗯 Customize Level Up Messages
+---
+description: Learn how to make Lurkr's level-up messages reflect your server's personality.
+---
+
+# 🗯️ Customize Level Up Messages
 
 ## Guide
 

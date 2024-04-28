@@ -1,5 +1,5 @@
 ---
-description: Learn how Pepe Manager can automatically celebrate a milestone with you!
+description: Learn how Lurkr can automatically celebrate a milestone with you!
 ---
 
 # 🥇 Automatically Controlled Member Milestones

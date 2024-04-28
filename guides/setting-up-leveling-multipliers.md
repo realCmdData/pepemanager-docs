@@ -1,5 +1,7 @@
 ---
-description: Change who gains how much XP, and where!
+description: >-
+  Learn how to boost XP rewards in specific channels or for members with certain
+  roles, shaping your server's leveling experience.
 ---
 
 # 🚀 Setting Up Leveling Multipliers
