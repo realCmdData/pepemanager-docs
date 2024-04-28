@@ -1,5 +1,7 @@
 ---
-description: Let Lurkr take the reigns, completely hassle-free!
+description: >-
+  Keep the Leveling Momentum! Learn how to easily bring over member levels and
+  progress from other bots, ensuring a smooth transition to Lurkr.
 ---
 
 # 📀 Importing Levels From Other Bots
