@@ -163,6 +163,20 @@ To toggle role hierarchy prioritization, you can type the following command:
 
 ***
 
+### Toggling Vote Boosting Leveling
+
+Voting helps us get Lurkr seen by lots more people! To help incentivize people to vote for Lurkr we give everyone who voted a **12 hour multiplier** that is applied globally across all servers.
+
+This boost is **20%**, so the equivalent of a 1.2x Multiplier.&#x20;
+
+Unlike other bots, it is completely free to turn this boost off for you, however if you like what we're doing and can't support us directly with [Lurkr Max](../information/patreon-perks.md) or [Lurkr Ultimate](../information/patreon-perks.md), we would appreciate you leaving this featured turned on!
+
+To toggle vote boosting leveling, you can type the following command:
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+***
+
 ### Final Words <a href="#final-words" id="final-words"></a>
 
 And that's it! You've successfully learned how to use leveling Multipliers in Lurkr!
