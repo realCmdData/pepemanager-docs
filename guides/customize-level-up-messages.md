@@ -25,13 +25,15 @@ _You must include the {} brackets in your message for the tags to show up!_
 | Information                    | Parameter            |
 | ------------------------------ | -------------------- |
 | User Mention (@User)           | {user}               |
+| User Profile Picture (🖼️)     | {user.avatar}        |
 | User Tag (User#1234)           | {user.tag}           |
-| Username (User)                | {user.username}      |
 | User Discriminator (1234)      | {user.discriminator} |
 | User ID (99787644430475264)    | {user.id}            |
 | Server Name (My Cool Server)   | {guild.name}         |
 | Server ID (493351982887862283) | {guild.id}           |
+| Server Icon Picture (🖼️)      | {guild.icon}         |
 | Level Reached (5)              | {level}              |
+| Total XP Gained (30,183)       | {xp}                 |
 
 ***
 
