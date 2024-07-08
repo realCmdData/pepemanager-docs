@@ -10,7 +10,11 @@ description: Learn how to make Lurkr's level-up messages reflect your server's p
 
 If you find the current Level-Up message to not suit your server style, or you simply want to spice it up a little, you can completely customize it!
 
-We currently only support raw text messages (Not Embeds). To set the Level-Up message you can type the following command:
+{% hint style="success" %}
+**You can also use Embed Messages to congratulate your members!**
+
+Currently we only support configuring embed messages in the dashboard: [https://lurkr.gg/](https://lurkr.gg/)
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/Discord_M8psaGVQ7J.png" alt=""><figcaption></figcaption></figure>
 
