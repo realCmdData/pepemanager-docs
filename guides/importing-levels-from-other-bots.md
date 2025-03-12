@@ -63,19 +63,19 @@ Click on **True** in order to import the role rewards, or **False** if you just 
 
 ***
 
-#### Until Option
+#### Minimum Level Option
 
-Lastly, you will be prompted with an 'until' option. This **optional** field lets you control down to which level you want to import your users.&#x20;
+Lastly, you will be prompted with a 'min\_level' option. This **optional** field lets you control down to which level you want to import your users.&#x20;
 
-For example, if you have a lot of users who are all on level 1 because they only ever spoke 2 words in your server, the import will skip them entirely. This is mainly useful for large servers (Over \~1,000 members) who might have a lot of unnecessary users in their leveling leaderboard. This helps reduce the overall processing the bot needs to do.
+For example, if you have many users who are all on level 1 because they only ever spoke 2 words on your server, the import will skip them entirely. This is mainly useful for large servers (Over \~1,000 members) who might have many unnecessary users in their leveling leaderboard. This helps reduce the overall processing the bot needs to do.
 
-The **lowest** this value can go is `3`, meaning that if you select `until:3`, Lurkr will import all levels until it reaches level 3 and will then stop importing. The **highest** this value can go is `20`.
+The **lowest** this value can go is `3`, meaning that if you select `min_level:3`, Lurkr will import all levels until it reaches level 3 and will then stop importing. The **highest** this value can go is `20`.
 
 {% hint style="info" %}
-By default, the `until` value is set to 5.
+By default, the `min_level`value is set to 5.
 {% endhint %}
 
-<figure><img src="https://i.imgur.com/nMSotqw.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Discord_kMmfBtHwRR.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

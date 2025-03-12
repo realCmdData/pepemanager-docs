@@ -24,7 +24,7 @@ This will then open a modal dialog box, in which you can then type and send-off 
 
 There are several **tags** you can include in your Level-Up message. These parameters will be replaced with the appropriate information when the Level-Up message is sent.\
 \
-_You must include the {} brackets in your message for the tags to show up!_
+&#xNAN;_&#x59;ou must include the {} brackets in your message for the tags to show up!_
 
 | Information                    | Parameter            |
 | ------------------------------ | -------------------- |

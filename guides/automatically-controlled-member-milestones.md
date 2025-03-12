@@ -74,7 +74,7 @@ If you are including a role mention in your message, make sure that Lurkr has pe
 
 There are several **tags** you can include in your Milestone message. These parameters will be replaced with the appropriate information when the Milestone message is sent.\
 \
-_You must include the {} brackets in your message for the tags to show up!_
+&#xNAN;_&#x59;ou must include the {} brackets in your message for the tags to show up!_
 
 | Information                    | Tag                  |
 | ------------------------------ | -------------------- |
