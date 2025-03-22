@@ -82,7 +82,7 @@ By letting them not gain levels for a day gives other users time to catch up.
 
 ***
 
-### Toggling Role Stacking
+### Setting up Role Stacking
 
 Now that you've set up some role rewards, you can choose if you want some of your role rewards to stack or not, individually customizable per role reward!
 
