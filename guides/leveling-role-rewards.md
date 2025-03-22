@@ -84,15 +84,15 @@ By letting them not gain levels for a day gives other users time to catch up.
 
 ### Toggling Role Stacking
 
-Now that you've set up some role rewards, you can choose whether or not the bot will stack the roles or not.
+Now that you've set up some role rewards, you can choose if you want some of your role rewards to stack or not, individually customizable per role reward!
 
-Stacking means that each additional role reward will simply be added to the users already existing roles.
+Stacking means that each additional role reward will simply be added to the users' already existing roles.
 
-Non-Stacking means that any previous role reward roles will be removed when the user gains a new role. This does not affect roles that are not specifically marked as rewards.
+Non-Stacking means the role reward role will be removed when the user gains a new role. This does not affect roles that are not specifically marked as role rewards.
 
-By default, stacking is turned **on**.
+This option must be configured on the [Lurkr Dashboard](https://lurkr.gg/guilds).
 
-<figure><img src="../.gitbook/assets/Discord_5IAmJr3NHb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Arc_vdDWlCVNRc.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
