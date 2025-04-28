@@ -21,6 +21,7 @@
 * [🥇 Automatically Controlled Member Milestones](guides/automatically-controlled-member-milestones.md)
 * [📣 Automatically Publishing Announcements](guides/automatically-published-announcements.md)
 * [📃 Exporting Leveling Leaderboard](guides/exporting-leveling-leaderboard.md)
+* [🗝️ API Introduction](guides/api-introduction.md)
 
 ## Configuration Commands <a href="#config-commands" id="config-commands"></a>
 
