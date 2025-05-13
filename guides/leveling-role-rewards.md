@@ -58,24 +58,24 @@ You can enter as many roles as your current server plan will allow. You can chec
 
 ***
 
-### Adding the Daily Top Leveling Role
+### Adding the All-time Leaderboard Champion Role
 
-You can also reward a user for having the most XP by letting the bot assign a Top Leveling role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the Top Leveling role previously, it will be taken off of them.&#x20;
+You can also reward a user for having the #1 Rank in the server by letting the bot assign an All-time Leaderboard Champion role. This role is given out at 00:00 UTC, and is only ever given to one person on the server. If a user had the role previously, it will be taken off of them.&#x20;
 
 {% hint style="info" %}
-The Top Leveling Role will only be assigned if the qualified person is level 10+. This is done to prevent unfair level gain by other members in the lower levels where gaining levels is easier.
+The All-time Leaderboard Champion Role will only be assigned if the qualified person is level 10+. This is done to prevent unfair level gain by other members in the lower levels where gaining levels is easier.
 {% endhint %}
 
-This feature is a quick and easy way to give users a long-term goal to work towards.&#x20;
+This feature is a quick and easy way to give users a long-term goal to work towards for when they reach rank #1.
 
-It also helps if the Top Leveling role is hoisted quite high on the server list, and is given a prominent colour. To set the Top Leveling role, you can type the following command:
+It also helps if the All-time Leaderboard Champion role is hoisted quite high on the server list, and is given a prominent colour. To set the All-time Leaderboard Champion role, you can type the following command:
 
 <figure><img src="../.gitbook/assets/Discord_gaAs6efXBe.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-It is **highly** suggested that you also set the Top Leveling role as a [No Leveling role](leveling-role-rewards.md#adding-no-leveling-roles) aswell.
+It is **highly** suggested that you also set the All-time Leaderboard Champion role as a [No Leveling role](leveling-role-rewards.md#adding-no-leveling-roles) aswell.
 
-Not doing so might lead to the situation that only one person ever receives the Top Leveling role since during their day on the Top they keep gaining levels.
+Not doing so might lead to the situation that only one person ever receives the Top Leveling role since during their day at rank #1 they can continue gaining levels.
 
 By letting them not gain levels for a day gives other users time to catch up.
 {% endhint %}
