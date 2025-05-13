@@ -70,7 +70,7 @@ This feature is a quick and easy way to give users a long-term goal to work towa
 
 It also helps if the Top Leveling role is hoisted quite high on the server list, and is given a prominent colour. To set the Top Leveling role, you can type the following command:
 
-<figure><img src="https://i.imgur.com/uizbhw6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Discord_gaAs6efXBe.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 It is **highly** suggested that you also set the Top Leveling role as a [No Leveling role](leveling-role-rewards.md#adding-no-leveling-roles) aswell.
