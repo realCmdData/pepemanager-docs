@@ -9,12 +9,14 @@
 ## Guides
 
 * [📈 Initial Leveling Setup](guides/setting-up-server-leveling.md)
+* [🚄 Customize Leveling Speed](guides/customize-leveling-speed.md)
 * [🗯️ Customize Level Up Messages](guides/customize-level-up-messages.md)
 * [✨ Leveling Role Rewards](guides/leveling-role-rewards.md)
 * [⚙️ Leveling Automation](guides/leveling-automation.md)
 * [📀 Importing Levels From Other Bots](guides/importing-levels-from-other-bots.md)
 * [🚀 Setting Up Leveling Multipliers](guides/setting-up-leveling-multipliers.md)
 * [🔗 Setting a Leaderboard Vanity URL](guides/setting-a-leaderboard-vanity-url.md)
+* [👁️ Setting a Leaderboard Visibility](guides/setting-a-leaderboard-visibility.md)
 * [👑 Automatic Role Mention Cooldown](guides/automatic-role-mention-cooldown.md)
 * [📬 On Join Roles](guides/automatically-added-roles-with-timeout.md)
 * [😄 Automatically Controlled Emoji-List](guides/automatically-controlled-emoji-list.md)
